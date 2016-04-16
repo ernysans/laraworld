@@ -1,0 +1,21 @@
+{
+    "name": "ernysans/countries",
+    "description": "Countries Package for Laravel 5.*",
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "^5.2"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Erny Sans",
+            "email": "c@erny.co"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ErnySans\\Countries\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
