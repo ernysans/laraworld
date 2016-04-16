@@ -1,12 +1,19 @@
 {
     "name": "ernysans/countries",
     "description": "Countries Package for Laravel 5.*",
+    "version": "master",
+    "type": "package",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "dist": {
+      "url": "git@bitbucket.org:ernysans/countries.git",
+      "type": "git"
+    },
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": "^5.2"
     },
     "license": "MIT",
-    "type": "package",
     "authors": [
         {
             "name": "Erny Sans",
@@ -17,7 +24,5 @@
         "psr-4": {
             "ErnySans\\Countries\\": "src/"
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
