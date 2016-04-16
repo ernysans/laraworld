@@ -16,9 +16,8 @@ class CountriesTableSeeder extends Seeder
         // Empty the table
         Countries::truncate();
 
-        //Get all of the countries from the JSON file
-        $JSON_countries = Countries::getCountries();
-
+        // Get all from the JSON file
+        $JSON_countries = Countries::allJSON();
 
         foreach ($JSON_countries as $country) {
             Countries::create([

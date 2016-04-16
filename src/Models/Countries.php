@@ -3,7 +3,6 @@
 namespace ErnySans\Countries\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\File;
 
 class Countries extends Model
 {
@@ -26,6 +25,7 @@ class Countries extends Model
      * @var array
      */
     protected $hidden = [
+        'id',
         'created_at',
         'updated_at'
     ];
@@ -45,16 +45,13 @@ class Countries extends Model
      *
      * @return array
      */
-    public static function getCountries()
+    public static function allJSON()
     {
 
-        $path = dirname(dirname(__FILE__)) . '/Data/';
+        $data = json_decode(file_get_contents(dirname(__FILE__) . '/Data/countries.json'), true);
 
-        $data = File::get($path . 'countries.json');
-        $timeZones = json_decode($data);
-
-        //Return the Time Zones
-        return $timeZones;
+        //Return the Countries
+        return $data;
 
     }
 }
