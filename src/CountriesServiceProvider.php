@@ -22,7 +22,7 @@ class CountriesServiceProvider extends ServiceProvider
         ], 'migrations');
 
         $this->publishes([
-            __DIR__ . '/Seeds/' => database_path() . 'seeds'
+            __DIR__ . '/Seeds/' => database_path('seeds')
         ], 'seeds');
     }
 }
