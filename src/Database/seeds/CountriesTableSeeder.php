@@ -1,7 +1,5 @@
 <?php
 
-namespace ErnySans\Countries\Seeds;
-
 use Illuminate\Database\Seeder;
 use ErnySans\Countries\Models\Countries;
 
