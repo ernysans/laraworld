@@ -4,7 +4,7 @@ use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 use Illuminate\Support\Facades\Schema;
 
-class CreateVendorCountriesTable extends Migration
+class CreateCountriesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,7 @@ class CreateVendorCountriesTable extends Migration
      */
     public function up()
     {
-        Schema::create('vendor_countries', function(Blueprint $table)
+        Schema::create('countries', function(Blueprint $table)
         {
             $table->increments('id');
             $table->string('capital', 255)->nullable();
@@ -42,6 +42,6 @@ class CreateVendorCountriesTable extends Migration
      */
     public function down()
     {
-        Schema::drop('vendor_countries');
+        Schema::drop('countries');
     }
 }

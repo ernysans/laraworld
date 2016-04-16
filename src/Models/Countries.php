@@ -5,16 +5,11 @@ namespace ErnySans\Countries\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\File;
 
-/**
- * CountryList
- *
- */
 class Countries extends Model
 {
 
     /**
-     * @var string
-     * Path to the directory containing countries data.
+     * @var
      */
     protected $countries;
 
@@ -23,30 +18,7 @@ class Countries extends Model
      *
      * @var string
      */
-    protected $table = 'vendor_countries';
-
-    /**
-     * The attributes that are mass assignable.
-     *
-     * @var array
-     */
-    protected $fillable = [
-        'capital',
-        'citizenship',
-        'country-code',
-        'currency',
-        'currency_code',
-        'currency_sub_unit',
-        'full_name',
-        'iso_3166_2',
-        'iso_3166_3',
-        'name',
-        'region-code',
-        'sub-region-code',
-        'eea',
-        'calling_code',
-        'currency_symbol'
-    ];
+    protected $table = 'countries';
 
     /**
      * The attributes excluded from the model's JSON form.
@@ -54,7 +26,6 @@ class Countries extends Model
      * @var array
      */
     protected $hidden = [
-        'id',
         'created_at',
         'updated_at'
     ];
@@ -70,7 +41,7 @@ class Countries extends Model
     ];
 
     /**
-     * Get the countries from the JSON file, if it hasn't already been loaded.
+     * Get the countries from the JSON file.
      *
      * @return array
      */
@@ -88,7 +59,7 @@ class Countries extends Model
     }
 
     /**
-     * Returns one country
+     * Returns one country from the JSON file.
      *
      * @param string $id The country id
      *
@@ -101,12 +72,11 @@ class Countries extends Model
     }
 
     /**
-    * Returns a list of countries
-    *
-    * @param string sort
-    *
-    * @return array
-    */
+     * Returns a list of countries from the JSON file.
+     *
+     * @param null $sort
+     * @return array
+     */
     public function getList($sort = null)
     {
         //Get the countries list

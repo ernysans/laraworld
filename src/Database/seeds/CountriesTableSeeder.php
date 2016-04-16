@@ -5,7 +5,7 @@ namespace ErnySans\Countries\Seeds;
 use Illuminate\Database\Seeder;
 use ErnySans\Countries\Models\Countries;
 
-class VendorCountriesTableSeeder extends Seeder
+class CountriesTableSeeder extends Seeder
 {
 
     /**
@@ -18,8 +18,9 @@ class VendorCountriesTableSeeder extends Seeder
         // Empty the table
         Countries::truncate();
 
-        //Get all of the countries
+        //Get all of the countries from the JSON file
         $JSON_countries = Countries::getCountries();
+
 
         foreach ($JSON_countries as $country) {
             Countries::create([
