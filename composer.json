@@ -5,7 +5,7 @@
     "type": "package",
     "minimum-stability": "dev",
     "prefer-stable": true,
-    "dist": {
+    "source": {
       "url": "git@github.com:ernysans/countries.git",
       "type": "git"
     },
