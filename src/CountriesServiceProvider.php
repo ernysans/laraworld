@@ -17,12 +17,13 @@ class CountriesServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+
         $this->publishes([
-            __DIR__.'/Migrations/' => database_path('migrations')
+            __DIR__.'/database/migrations/' => database_path('migrations')
         ], 'migrations');
 
         $this->publishes([
-            __DIR__ . '/Seeds/' => database_path('seeds')
+            __DIR__ .'/database/seeds/' => database_path('seeds')
         ], 'seeds');
     }
 }
