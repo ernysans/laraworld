@@ -6,7 +6,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "dist": {
-      "url": "git@bitbucket.org:ernysans/countries.git",
+      "url": "git@github.com:ernysans/countries.git",
       "type": "git"
     },
     "require": {
