@@ -48,9 +48,9 @@ class Countries extends Model
     public static function allJSON()
     {
 
-        $data = json_decode(file_get_contents(dirname(__FILE__) . '/Data/countries.json'), true);
+        $data = json_decode(file_get_contents(__DIR__ . '/Data/countries.json'), true);
 
-        //Return the Countries
+        // Return the Countries
         return $data;
 
     }
