@@ -6,8 +6,9 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "source": {
+      "type": "git",
       "url": "git@github.com:ernysans/countries.git",
-      "type": "git"
+      "reference": "origin/master"
     },
     "require": {
         "php": ">=5.5.9",
