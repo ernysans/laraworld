@@ -16,11 +16,12 @@ class CreateTimeZonesTable extends Migration
         Schema::create('time_zones', function(Blueprint $table)
         {
             $table->increments('id');
-            $table->string('value')->nullable();
+            $table->string('name')->nullable();
             $table->string('abbr')->nullable();
             $table->string('offset')->nullable();
             $table->string('isdst')->nullable();
             $table->string('text')->nullable();
+            $table->json('utc')->nullable();
             $table->timestamps();
         });
     }

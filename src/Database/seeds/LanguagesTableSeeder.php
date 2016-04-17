@@ -22,9 +22,9 @@ class LanguagesTableSeeder extends Seeder
 
         foreach ($JSON_languages as $language) {
             Languages::create([
-                'alpha3' => $language->alpha2,
-                'alpha2' => $language->alpha3,
-                'english' => $language->english
+                'alpha3'    => ((isset($language['alpha3'])) ? $language['alpha3'] : null),
+                'alpha2'    => ((isset($language['alpha2'])) ? $language['alpha2'] : null),
+                'english'   => ((isset($language['english'])) ? $language['english'] : null),
             ]);
         }
     }

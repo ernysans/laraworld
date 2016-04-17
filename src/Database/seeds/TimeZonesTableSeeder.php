@@ -23,11 +23,12 @@ class TimeZonesTableSeeder extends Seeder
 
         foreach ($JSON_timezones as $timezone) {
             TimeZones::create([
-                'value' => $timezone->value,
-                'abbr' => $timezone->abbr,
-                'offset' => $timezone->offset,
-                'isdst' => $timezone->isdst,
-                'text' => $timezone->text,
+                'name'      => ((isset($timezone['value'])) ? $timezone['value'] : null),
+                'abbr'      => ((isset($timezone['abbr'])) ? $timezone['abbr'] : null),
+                'offset'    => ((isset($timezone['offset'])) ? $timezone['offset'] : null),
+                'isdst'     => ((isset($timezone['isdst'])) ? $timezone['isdst'] : null),
+                'text'      => ((isset($timezone['text'])) ? $timezone['text'] : null),
+                'utc'       => ((isset($timezone['utc'])) ? $timezone['utc'] : null),
             ]);
         }
     }
