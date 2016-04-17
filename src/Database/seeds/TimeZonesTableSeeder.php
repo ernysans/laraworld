@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use ErnySans\Laraworld\Models\TimeZones;
 
-class ZonesTableSeeder extends Seeder
+class TimeZonesTableSeeder extends Seeder
 {
 
     /**
