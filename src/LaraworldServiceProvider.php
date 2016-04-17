@@ -4,7 +4,7 @@ namespace ErnySans\Countries;
 
 use Illuminate\Support\ServiceProvider;
 
-class CountriesServiceProvider extends ServiceProvider
+class LaraworldServiceProvider extends ServiceProvider
 {
     public function register()
     {
