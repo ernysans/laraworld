@@ -1,5 +1,7 @@
 <?php
 
+namespace ErnySans\Laraworld\Database\seeds;
+
 use Illuminate\Database\Seeder;
 use ErnySans\Laraworld\Models\Countries;
 
