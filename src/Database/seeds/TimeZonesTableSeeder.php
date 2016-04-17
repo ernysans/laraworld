@@ -1,10 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Models\Vendor\TimeZones;
-use Illuminate\Support\Facades\DB;
+use ErnySans\Laraworld\Models\TimeZones;
 
-class VendorTimeZonesTableSeeder extends Seeder
+class ZonesTableSeeder extends Seeder
 {
 
     /**

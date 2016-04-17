@@ -1,10 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use App\Models\Vendor\Languages;
-use Illuminate\Support\Facades\DB;
+use ErnySans\Laraworld\Models\Languages;
 
-class VendorLanguagesTableSeeder extends Seeder
+class LanguagesTableSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -21,9 +20,9 @@ class VendorLanguagesTableSeeder extends Seeder
 
         foreach ($JSON_languages as $language) {
             Languages::create([
-                'alpha2' => $language->alpha2,
-                'english' => $language->english,
-                //'native' => $language->native,
+                'alpha3' => $language->alpha2,
+                'alpha2' => $language->alpha3,
+                'english' => $language->english
             ]);
         }
     }

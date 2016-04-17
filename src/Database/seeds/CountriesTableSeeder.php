@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use ErnySans\Countries\Models\Countries;
+use ErnySans\Laraworld\Models\Countries;
 
 class CountriesTableSeeder extends Seeder
 {
