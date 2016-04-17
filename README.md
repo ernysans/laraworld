@@ -19,7 +19,7 @@ When using Laravel there is a service provider that you can make use of.
 ];
 ```
 
-Publish Migrations and Seeds
+Publish Migrations
 
 ```bash
 php artisan vendor:publish --provider="ErnySans\Laraworld\LaraworldServiceProvider"
@@ -30,10 +30,24 @@ Prepare Seed.
 ```php
 // database/seeds/DatabaseSeeder.php
 
-public function run()
+use ErnySans\Laraworld\Database\seeds\CountriesTableSeeder;
+use ErnySans\Laraworld\Database\seeds\TimeZonesTableSeeder;
+use ErnySans\Laraworld\Database\seeds\LanguagesTableSeeder;
+
+class DatabaseSeeder extends Seeder
 {
-    // Seed the countries
-    $this->call(CountriesTableSeeder::class);
+
+    public function run()
+    {
+        // Seed the countries
+        $this->call(CountriesTableSeeder::class);
+    
+        // Seed the Time Zones
+        $this->call(TimeZonesTableSeeder::class);
+    
+        // Seed the Languages
+        $this->call(LanguagesTableSeeder::class);
+    }
 }
 ```
 

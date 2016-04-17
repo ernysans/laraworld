@@ -2,16 +2,17 @@
 
 namespace ErnySans\Laraworld;
 
-use ErnySans\Laraworld\Models\Countries;
 use Illuminate\Support\ServiceProvider;
 
 class LaraworldServiceProvider extends ServiceProvider
 {
+    /**
+     * Register bindings in the container.
+     *
+     * @return void
+     */
     public function register()
     {
-//        $this->app->bind('countries', function() {
-//            return new Countries;
-//        });
     }
 
     /**
@@ -24,6 +25,5 @@ class LaraworldServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__.'/Database/migrations/' => database_path('migrations')
         ], 'migrations');
-        
     }
 }
