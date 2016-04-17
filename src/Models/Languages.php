@@ -4,9 +4,9 @@ namespace ErnySans\Laraworld\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Languages extends Model {
-
-
+class Languages extends Model
+{
+    
 	/**
 	 * The database table used by the model.
 	 *
@@ -42,8 +42,9 @@ class Languages extends Model {
 	 */
 	public static function allJSON()
 	{
+		$route = dirname(dirname(__FILE__)) . '/Database/data/languages.json';
 
-		return json_decode(file_get_contents(__DIR__ . '/../Database/data/languages.json'), true);
+		return json_decode(file_get_contents($route), true);
 	}
 
 }

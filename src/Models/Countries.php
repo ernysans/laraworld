@@ -3,12 +3,10 @@
 namespace ErnySans\Laraworld\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Illuminate\Support\Facades\File;
 
 class Countries extends Model
 {
 
-    protected static $countries;
     /**
      * The database table used by the model.
      *
@@ -44,11 +42,9 @@ class Countries extends Model
      */
     public static function allJSON()
     {
-        $path = dirname(dirname(__FILE__)) . '/../Database/data/';
-        $data = File::get($path . 'countries.json');
-        $response = json_decode($data);
+        $route = dirname(dirname(__FILE__)) . '/Database/data/countries.json';
 
-        return $response;
+        return json_decode(file_get_contents($route), true);
     }
 
 }

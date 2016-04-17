@@ -4,9 +4,9 @@ namespace ErnySans\Laraworld\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class TimeZones extends Model {
-
-
+class TimeZones extends Model
+{
+    
 	/**
 	 * The database table used by the model.
 	 *
@@ -42,8 +42,9 @@ class TimeZones extends Model {
 	 */
 	public static function allJSON()
 	{
+		$route = dirname(dirname(__FILE__)) . '/Database/data/timezones.json';
 
-		return json_decode(file_get_contents(__DIR__ . '/../Database/data/timezones.json'), true);
+		return json_decode(file_get_contents($route), true);
 	}
 
 }

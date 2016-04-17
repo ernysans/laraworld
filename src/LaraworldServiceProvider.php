@@ -9,9 +9,9 @@ class LaraworldServiceProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->bind('countries', function() {
-            return new Countries;
-        });
+//        $this->app->bind('countries', function() {
+//            return new Countries;
+//        });
     }
 
     /**

@@ -1,5 +1,5 @@
-{
-  "4":{
+[
+  {
     "capital":"Kabul",
     "citizenship":"Afghan",
     "country_code":"004",
@@ -16,7 +16,7 @@
     "calling_code":"93",
     "currency_symbol":"؋"
   },
-  "8":{
+  {
     "capital":"Tirana",
     "citizenship":"Albanian",
     "country_code":"008",
@@ -33,7 +33,7 @@
     "calling_code":"355",
     "currency_symbol":"Lek"
   },
-  "10":{
+  {
     "capital":"Antartica",
     "citizenship":"of Antartica",
     "country_code":"010",
@@ -50,7 +50,7 @@
     "calling_code":"672",
     "currency_symbol":""
   },
-  "12":{
+  {
     "capital":"Algiers",
     "citizenship":"Algerian",
     "country_code":"012",
@@ -67,7 +67,7 @@
     "calling_code":"213",
     "currency_symbol":"DZD"
   },
-  "16":{
+  {
     "capital":"Pago Pago",
     "citizenship":"American Samoan",
     "country_code":"016",
@@ -84,7 +84,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "20":{
+  {
     "capital":"Andorra la Vella",
     "citizenship":"Andorran",
     "country_code":"020",
@@ -101,7 +101,7 @@
     "calling_code":"376",
     "currency_symbol":"€"
   },
-  "24":{
+  {
     "capital":"Luanda",
     "citizenship":"Angolan",
     "country_code":"024",
@@ -118,7 +118,7 @@
     "calling_code":"244",
     "currency_symbol":"Kz"
   },
-  "28":{
+  {
     "capital":"St John’s",
     "citizenship":"of Antigua and Barbuda",
     "country_code":"028",
@@ -135,7 +135,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "31":{
+  {
     "capital":"Baku",
     "citizenship":"Azerbaijani",
     "country_code":"031",
@@ -152,7 +152,7 @@
     "calling_code":"994",
     "currency_symbol":"ман"
   },
-  "32":{
+  {
     "capital":"Buenos Aires",
     "citizenship":"Argentinian",
     "country_code":"032",
@@ -169,7 +169,7 @@
     "calling_code":"54",
     "currency_symbol":"$"
   },
-  "36":{
+  {
     "capital":"Canberra",
     "citizenship":"Australian",
     "country_code":"036",
@@ -186,7 +186,7 @@
     "calling_code":"61",
     "currency_symbol":"$"
   },
-  "40":{
+  {
     "capital":"Vienna",
     "citizenship":"Austrian",
     "country_code":"040",
@@ -203,7 +203,7 @@
     "calling_code":"43",
     "currency_symbol":"€"
   },
-  "44":{
+  {
     "capital":"Nassau",
     "citizenship":"Bahamian",
     "country_code":"044",
@@ -220,7 +220,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "48":{
+  {
     "capital":"Manama",
     "citizenship":"Bahraini",
     "country_code":"048",
@@ -237,7 +237,7 @@
     "calling_code":"973",
     "currency_symbol":"BHD"
   },
-  "50":{
+  {
     "capital":"Dhaka",
     "citizenship":"Bangladeshi",
     "country_code":"050",
@@ -254,7 +254,7 @@
     "calling_code":"880",
     "currency_symbol":"BDT"
   },
-  "51":{
+  {
     "capital":"Yerevan",
     "citizenship":"Armenian",
     "country_code":"051",
@@ -271,7 +271,7 @@
     "calling_code":"374",
     "currency_symbol":"AMD"
   },
-  "52":{
+  {
     "capital":"Bridgetown",
     "citizenship":"Barbadian",
     "country_code":"052",
@@ -288,7 +288,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "56":{
+  {
     "capital":"Brussels",
     "citizenship":"Belgian",
     "country_code":"056",
@@ -305,7 +305,7 @@
     "calling_code":"32",
     "currency_symbol":"€"
   },
-  "60":{
+  {
     "capital":"Hamilton",
     "citizenship":"Bermudian",
     "country_code":"060",
@@ -322,7 +322,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "64":{
+  {
     "capital":"Thimphu",
     "citizenship":"Bhutanese",
     "country_code":"064",
@@ -339,7 +339,7 @@
     "calling_code":"975",
     "currency_symbol":"BTN"
   },
-  "68":{
+  {
     "capital":"Sucre (BO1)",
     "citizenship":"Bolivian",
     "country_code":"068",
@@ -356,7 +356,7 @@
     "calling_code":"591",
     "currency_symbol":"$b"
   },
-  "70":{
+  {
     "capital":"Sarajevo",
     "citizenship":"of Bosnia and Herzegovina",
     "country_code":"070",
@@ -373,7 +373,7 @@
     "calling_code":"387",
     "currency_symbol":"KM"
   },
-  "72":{
+  {
     "capital":"Gaborone",
     "citizenship":"Botswanan",
     "country_code":"072",
@@ -390,7 +390,7 @@
     "calling_code":"267",
     "currency_symbol":"P"
   },
-  "74":{
+  {
     "capital":"Bouvet island",
     "citizenship":"of Bouvet island",
     "country_code":"074",
@@ -407,7 +407,7 @@
     "calling_code":"47",
     "currency_symbol":"kr"
   },
-  "76":{
+  {
     "capital":"Brasilia",
     "citizenship":"Brazilian",
     "country_code":"076",
@@ -424,7 +424,7 @@
     "calling_code":"55",
     "currency_symbol":"R$"
   },
-  "84":{
+  {
     "capital":"Belmopan",
     "citizenship":"Belizean",
     "country_code":"084",
@@ -441,7 +441,7 @@
     "calling_code":"501",
     "currency_symbol":"BZ$"
   },
-  "86":{
+  {
     "capital":"Diego Garcia",
     "citizenship":"Changosian",
     "country_code":"086",
@@ -458,7 +458,7 @@
     "calling_code":"246",
     "currency_symbol":"$"
   },
-  "90":{
+  {
     "capital":"Honiara",
     "citizenship":"Solomon Islander",
     "country_code":"090",
@@ -475,7 +475,7 @@
     "calling_code":"677",
     "currency_symbol":"$"
   },
-  "92":{
+  {
     "capital":"Road Town",
     "citizenship":"British Virgin Islander;",
     "country_code":"092",
@@ -492,7 +492,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "96":{
+  {
     "capital":"Bandar Seri Begawan",
     "citizenship":"Bruneian",
     "country_code":"096",
@@ -509,7 +509,7 @@
     "calling_code":"673",
     "currency_symbol":"$"
   },
-  "100":{
+  {
     "capital":"Sofia",
     "citizenship":"Bulgarian",
     "country_code":"100",
@@ -526,7 +526,7 @@
     "calling_code":"359",
     "currency_symbol":"лв"
   },
-  "104":{
+  {
     "capital":"Yangon",
     "citizenship":"Burmese",
     "country_code":"104",
@@ -543,7 +543,7 @@
     "calling_code":"95",
     "currency_symbol":"K"
   },
-  "108":{
+  {
     "capital":"Bujumbura",
     "citizenship":"Burundian",
     "country_code":"108",
@@ -560,7 +560,7 @@
     "calling_code":"257",
     "currency_symbol":"BIF"
   },
-  "112":{
+  {
     "capital":"Minsk",
     "citizenship":"Belarusian",
     "country_code":"112",
@@ -577,7 +577,7 @@
     "calling_code":"375",
     "currency_symbol":"p."
   },
-  "116":{
+  {
     "capital":"Phnom Penh",
     "citizenship":"Cambodian",
     "country_code":"116",
@@ -594,7 +594,7 @@
     "calling_code":"855",
     "currency_symbol":"៛"
   },
-  "120":{
+  {
     "capital":"Yaoundé",
     "citizenship":"Cameroonian",
     "country_code":"120",
@@ -611,7 +611,7 @@
     "calling_code":"237",
     "currency_symbol":"FCF"
   },
-  "124":{
+  {
     "capital":"Ottawa",
     "citizenship":"Canadian",
     "country_code":"124",
@@ -628,7 +628,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "132":{
+  {
     "capital":"Praia",
     "citizenship":"Cape Verdean",
     "country_code":"132",
@@ -645,7 +645,7 @@
     "calling_code":"238",
     "currency_symbol":"CVE"
   },
-  "136":{
+  {
     "capital":"George Town",
     "citizenship":"Caymanian",
     "country_code":"136",
@@ -662,7 +662,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "140":{
+  {
     "capital":"Bangui",
     "citizenship":"Central African",
     "country_code":"140",
@@ -679,7 +679,7 @@
     "calling_code":"236",
     "currency_symbol":"FCF"
   },
-  "144":{
+  {
     "capital":"Colombo",
     "citizenship":"Sri Lankan",
     "country_code":"144",
@@ -696,7 +696,7 @@
     "calling_code":"94",
     "currency_symbol":"₨"
   },
-  "148":{
+  {
     "capital":"N’Djamena",
     "citizenship":"Chadian",
     "country_code":"148",
@@ -713,7 +713,7 @@
     "calling_code":"235",
     "currency_symbol":"XAF"
   },
-  "152":{
+  {
     "capital":"Santiago",
     "citizenship":"Chilean",
     "country_code":"152",
@@ -730,7 +730,7 @@
     "calling_code":"56",
     "currency_symbol":"CLP"
   },
-  "156":{
+  {
     "capital":"Beijing",
     "citizenship":"Chinese",
     "country_code":"156",
@@ -747,7 +747,7 @@
     "calling_code":"86",
     "currency_symbol":"¥"
   },
-  "158":{
+  {
     "capital":"Taipei",
     "citizenship":"Taiwanese",
     "country_code":"158",
@@ -764,7 +764,7 @@
     "calling_code":"886",
     "currency_symbol":"NT$"
   },
-  "162":{
+  {
     "capital":"Flying Fish Cove",
     "citizenship":"Christmas Islander",
     "country_code":"162",
@@ -781,7 +781,7 @@
     "calling_code":"61",
     "currency_symbol":"$"
   },
-  "166":{
+  {
     "capital":"Bantam",
     "citizenship":"Cocos Islander",
     "country_code":"166",
@@ -798,7 +798,7 @@
     "calling_code":"61",
     "currency_symbol":"$"
   },
-  "170":{
+  {
     "capital":"Santa Fe de Bogotá",
     "citizenship":"Colombian",
     "country_code":"170",
@@ -815,7 +815,7 @@
     "calling_code":"57",
     "currency_symbol":"$"
   },
-  "174":{
+  {
     "capital":"Moroni",
     "citizenship":"Comorian",
     "country_code":"174",
@@ -832,7 +832,7 @@
     "calling_code":"269",
     "currency_symbol":"KMF"
   },
-  "175":{
+  {
     "capital":"Mamoudzou",
     "citizenship":"Mahorais",
     "country_code":"175",
@@ -849,7 +849,7 @@
     "calling_code":"262",
     "currency_symbol":"€"
   },
-  "178":{
+  {
     "capital":"Brazzaville",
     "citizenship":"Congolese",
     "country_code":"178",
@@ -866,7 +866,7 @@
     "calling_code":"242",
     "currency_symbol":"FCF"
   },
-  "180":{
+  {
     "capital":"Kinshasa",
     "citizenship":"Congolese",
     "country_code":"180",
@@ -883,7 +883,7 @@
     "calling_code":"243",
     "currency_symbol":"CDF"
   },
-  "184":{
+  {
     "capital":"Avarua",
     "citizenship":"Cook Islander",
     "country_code":"184",
@@ -900,7 +900,7 @@
     "calling_code":"682",
     "currency_symbol":"$"
   },
-  "188":{
+  {
     "capital":"San José",
     "citizenship":"Costa Rican",
     "country_code":"188",
@@ -917,7 +917,7 @@
     "calling_code":"506",
     "currency_symbol":"₡"
   },
-  "191":{
+  {
     "capital":"Zagreb",
     "citizenship":"Croatian",
     "country_code":"191",
@@ -934,7 +934,7 @@
     "calling_code":"385",
     "currency_symbol":"kn"
   },
-  "192":{
+  {
     "capital":"Havana",
     "citizenship":"Cuban",
     "country_code":"192",
@@ -951,7 +951,7 @@
     "calling_code":"53",
     "currency_symbol":"₱"
   },
-  "196":{
+  {
     "capital":"Nicosia",
     "citizenship":"Cypriot",
     "country_code":"196",
@@ -968,7 +968,7 @@
     "calling_code":"357",
     "currency_symbol":"CYP"
   },
-  "203":{
+  {
     "capital":"Prague",
     "citizenship":"Czech",
     "country_code":"203",
@@ -985,7 +985,7 @@
     "calling_code":"420",
     "currency_symbol":"Kč"
   },
-  "204":{
+  {
     "capital":"Porto Novo (BJ1)",
     "citizenship":"Beninese",
     "country_code":"204",
@@ -1002,7 +1002,7 @@
     "calling_code":"229",
     "currency_symbol":"XOF"
   },
-  "208":{
+  {
     "capital":"Copenhagen",
     "citizenship":"Danish",
     "country_code":"208",
@@ -1019,7 +1019,7 @@
     "calling_code":"45",
     "currency_symbol":"kr"
   },
-  "212":{
+  {
     "capital":"Roseau",
     "citizenship":"Dominican",
     "country_code":"212",
@@ -1036,7 +1036,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "214":{
+  {
     "capital":"Santo Domingo",
     "citizenship":"Dominican",
     "country_code":"214",
@@ -1053,7 +1053,7 @@
     "calling_code":"1",
     "currency_symbol":"RD$"
   },
-  "218":{
+  {
     "capital":"Quito",
     "citizenship":"Ecuadorian",
     "country_code":"218",
@@ -1070,7 +1070,7 @@
     "calling_code":"593",
     "currency_symbol":"$"
   },
-  "222":{
+  {
     "capital":"San Salvador",
     "citizenship":"Salvadoran",
     "country_code":"222",
@@ -1087,7 +1087,7 @@
     "calling_code":"503",
     "currency_symbol":"$"
   },
-  "226":{
+  {
     "capital":"Malabo",
     "citizenship":"Equatorial Guinean",
     "country_code":"226",
@@ -1104,7 +1104,7 @@
     "calling_code":"240",
     "currency_symbol":"FCF"
   },
-  "231":{
+  {
     "capital":"Addis Ababa",
     "citizenship":"Ethiopian",
     "country_code":"231",
@@ -1121,7 +1121,7 @@
     "calling_code":"251",
     "currency_symbol":"ETB"
   },
-  "232":{
+  {
     "capital":"Asmara",
     "citizenship":"Eritrean",
     "country_code":"232",
@@ -1138,7 +1138,7 @@
     "calling_code":"291",
     "currency_symbol":"Nfk"
   },
-  "233":{
+  {
     "capital":"Tallinn",
     "citizenship":"Estonian",
     "country_code":"233",
@@ -1155,7 +1155,7 @@
     "calling_code":"372",
     "currency_symbol":"kr"
   },
-  "234":{
+  {
     "capital":"Tórshavn",
     "citizenship":"Faeroese",
     "country_code":"234",
@@ -1172,7 +1172,7 @@
     "calling_code":"298",
     "currency_symbol":"kr"
   },
-  "238":{
+  {
     "capital":"Stanley",
     "citizenship":"Falkland Islander",
     "country_code":"238",
@@ -1189,7 +1189,7 @@
     "calling_code":"500",
     "currency_symbol":"£"
   },
-  "239":{
+  {
     "capital":"King Edward Point (Grytviken)",
     "citizenship":"of South Georgia and the South Sandwich Islands",
     "country_code":"239",
@@ -1206,7 +1206,7 @@
     "calling_code":"44",
     "currency_symbol":"£"
   },
-  "242":{
+  {
     "capital":"Suva",
     "citizenship":"Fijian",
     "country_code":"242",
@@ -1223,7 +1223,7 @@
     "calling_code":"679",
     "currency_symbol":"$"
   },
-  "246":{
+  {
     "capital":"Helsinki",
     "citizenship":"Finnish",
     "country_code":"246",
@@ -1240,7 +1240,7 @@
     "calling_code":"358",
     "currency_symbol":"€"
   },
-  "248":{
+  {
     "capital":"Mariehamn",
     "citizenship":"Åland Islander",
     "country_code":"248",
@@ -1256,7 +1256,7 @@
     "eea":false,
     "calling_code":"358"
   },
-  "250":{
+  {
     "capital":"Paris",
     "citizenship":"French",
     "country_code":"250",
@@ -1273,7 +1273,7 @@
     "calling_code":"33",
     "currency_symbol":"€"
   },
-  "254":{
+  {
     "capital":"Cayenne",
     "citizenship":"Guianese",
     "country_code":"254",
@@ -1290,7 +1290,7 @@
     "calling_code":"594",
     "currency_symbol":"€"
   },
-  "258":{
+  {
     "capital":"Papeete",
     "citizenship":"Polynesian",
     "country_code":"258",
@@ -1307,7 +1307,7 @@
     "calling_code":"689",
     "currency_symbol":"XPF"
   },
-  "260":{
+  {
     "capital":"Port_aux_Francais",
     "citizenship":"of French Southern and Antarctic Lands",
     "country_code":"260",
@@ -1324,7 +1324,7 @@
     "calling_code":"33",
     "currency_symbol":"€"
   },
-  "262":{
+  {
     "capital":"Djibouti",
     "citizenship":"Djiboutian",
     "country_code":"262",
@@ -1341,7 +1341,7 @@
     "calling_code":"253",
     "currency_symbol":"DJF"
   },
-  "266":{
+  {
     "capital":"Libreville",
     "citizenship":"Gabonese",
     "country_code":"266",
@@ -1358,7 +1358,7 @@
     "calling_code":"241",
     "currency_symbol":"FCF"
   },
-  "268":{
+  {
     "capital":"Tbilisi",
     "citizenship":"Georgian",
     "country_code":"268",
@@ -1375,7 +1375,7 @@
     "calling_code":"995",
     "currency_symbol":"GEL"
   },
-  "270":{
+  {
     "capital":"Banjul",
     "citizenship":"Gambian",
     "country_code":"270",
@@ -1392,7 +1392,7 @@
     "calling_code":"220",
     "currency_symbol":"D"
   },
-  "275":{
+  {
     "citizenship":"Palestinian",
     "country_code":"275",
     "iso_3166_2":"PS",
@@ -1404,7 +1404,7 @@
     "calling_code":"970",
     "currency_symbol":"₪"
   },
-  "276":{
+  {
     "capital":"Berlin",
     "citizenship":"German",
     "country_code":"276",
@@ -1421,7 +1421,7 @@
     "calling_code":"49",
     "currency_symbol":"€"
   },
-  "288":{
+  {
     "capital":"Accra",
     "citizenship":"Ghanaian",
     "country_code":"288",
@@ -1438,7 +1438,7 @@
     "calling_code":"233",
     "currency_symbol":"¢"
   },
-  "292":{
+  {
     "capital":"Gibraltar",
     "citizenship":"Gibraltarian",
     "country_code":"292",
@@ -1455,7 +1455,7 @@
     "calling_code":"350",
     "currency_symbol":"£"
   },
-  "296":{
+  {
     "capital":"Tarawa",
     "citizenship":"Kiribatian",
     "country_code":"296",
@@ -1472,7 +1472,7 @@
     "calling_code":"686",
     "currency_symbol":"$"
   },
-  "300":{
+  {
     "capital":"Athens",
     "citizenship":"Greek",
     "country_code":"300",
@@ -1489,7 +1489,7 @@
     "calling_code":"30",
     "currency_symbol":"€"
   },
-  "304":{
+  {
     "capital":"Nuuk",
     "citizenship":"Greenlander",
     "country_code":"304",
@@ -1506,7 +1506,7 @@
     "calling_code":"299",
     "currency_symbol":"kr"
   },
-  "308":{
+  {
     "capital":"St George’s",
     "citizenship":"Grenadian",
     "country_code":"308",
@@ -1523,7 +1523,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "312":{
+  {
     "capital":"Basse Terre",
     "citizenship":"Guadeloupean",
     "country_code":"312",
@@ -1540,7 +1540,7 @@
     "calling_code":"590",
     "currency_symbol":"€"
   },
-  "316":{
+  {
     "capital":"Agaña (Hagåtña)",
     "citizenship":"Guamanian",
     "country_code":"316",
@@ -1557,7 +1557,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "320":{
+  {
     "capital":"Guatemala City",
     "citizenship":"Guatemalan",
     "country_code":"320",
@@ -1574,7 +1574,7 @@
     "calling_code":"502",
     "currency_symbol":"Q"
   },
-  "324":{
+  {
     "capital":"Conakry",
     "citizenship":"Guinean",
     "country_code":"324",
@@ -1591,7 +1591,7 @@
     "calling_code":"224",
     "currency_symbol":"GNF"
   },
-  "328":{
+  {
     "capital":"Georgetown",
     "citizenship":"Guyanese",
     "country_code":"328",
@@ -1608,7 +1608,7 @@
     "calling_code":"592",
     "currency_symbol":"$"
   },
-  "332":{
+  {
     "capital":"Port_au_Prince",
     "citizenship":"Haitian",
     "country_code":"332",
@@ -1625,7 +1625,7 @@
     "calling_code":"509",
     "currency_symbol":"G"
   },
-  "334":{
+  {
     "capital":"Territory of Heard Island and McDonald Islands",
     "citizenship":"of Territory of Heard Island and McDonald Islands",
     "country_code":"334",
@@ -1642,7 +1642,7 @@
     "calling_code":"61",
     "currency_symbol":"$"
   },
-  "336":{
+  {
     "capital":"Vatican City",
     "citizenship":"of the Holy See/of the Vatican",
     "country_code":"336",
@@ -1659,7 +1659,7 @@
     "calling_code":"39",
     "currency_symbol":"€"
   },
-  "340":{
+  {
     "capital":"Tegucigalpa",
     "citizenship":"Honduran",
     "country_code":"340",
@@ -1676,7 +1676,7 @@
     "calling_code":"504",
     "currency_symbol":"L"
   },
-  "344":{
+  {
     "capital":"(HK3)",
     "citizenship":"Hong Kong Chinese",
     "country_code":"344",
@@ -1693,7 +1693,7 @@
     "calling_code":"852",
     "currency_symbol":"$"
   },
-  "348":{
+  {
     "capital":"Budapest",
     "citizenship":"Hungarian",
     "country_code":"348",
@@ -1710,7 +1710,7 @@
     "calling_code":"36",
     "currency_symbol":"Ft"
   },
-  "352":{
+  {
     "capital":"Reykjavik",
     "citizenship":"Icelander",
     "country_code":"352",
@@ -1727,7 +1727,7 @@
     "calling_code":"354",
     "currency_symbol":"kr"
   },
-  "356":{
+  {
     "capital":"New Delhi",
     "citizenship":"Indian",
     "country_code":"356",
@@ -1744,7 +1744,7 @@
     "calling_code":"91",
     "currency_symbol":"₹"
   },
-  "360":{
+  {
     "capital":"Jakarta",
     "citizenship":"Indonesian",
     "country_code":"360",
@@ -1761,7 +1761,7 @@
     "calling_code":"62",
     "currency_symbol":"Rp"
   },
-  "364":{
+  {
     "capital":"Tehran",
     "citizenship":"Iranian",
     "country_code":"364",
@@ -1778,7 +1778,7 @@
     "calling_code":"98",
     "currency_symbol":"﷼"
   },
-  "368":{
+  {
     "capital":"Baghdad",
     "citizenship":"Iraqi",
     "country_code":"368",
@@ -1795,7 +1795,7 @@
     "calling_code":"964",
     "currency_symbol":"IQD"
   },
-  "372":{
+  {
     "capital":"Dublin",
     "citizenship":"Irish",
     "country_code":"372",
@@ -1812,7 +1812,7 @@
     "calling_code":"353",
     "currency_symbol":"€"
   },
-  "376":{
+  {
     "capital":"(IL1)",
     "citizenship":"Israeli",
     "country_code":"376",
@@ -1829,7 +1829,7 @@
     "calling_code":"972",
     "currency_symbol":"₪"
   },
-  "380":{
+  {
     "capital":"Rome",
     "citizenship":"Italian",
     "country_code":"380",
@@ -1846,7 +1846,7 @@
     "calling_code":"39",
     "currency_symbol":"€"
   },
-  "384":{
+  {
     "capital":"Yamoussoukro (CI1)",
     "citizenship":"Ivorian",
     "country_code":"384",
@@ -1863,7 +1863,7 @@
     "calling_code":"225",
     "currency_symbol":"XOF"
   },
-  "388":{
+  {
     "capital":"Kingston",
     "citizenship":"Jamaican",
     "country_code":"388",
@@ -1880,7 +1880,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "392":{
+  {
     "capital":"Tokyo",
     "citizenship":"Japanese",
     "country_code":"392",
@@ -1897,7 +1897,7 @@
     "calling_code":"81",
     "currency_symbol":"¥"
   },
-  "398":{
+  {
     "capital":"Astana",
     "citizenship":"Kazakh",
     "country_code":"398",
@@ -1914,7 +1914,7 @@
     "calling_code":"7",
     "currency_symbol":"лв"
   },
-  "400":{
+  {
     "capital":"Amman",
     "citizenship":"Jordanian",
     "country_code":"400",
@@ -1931,7 +1931,7 @@
     "calling_code":"962",
     "currency_symbol":"JOD"
   },
-  "404":{
+  {
     "capital":"Nairobi",
     "citizenship":"Kenyan",
     "country_code":"404",
@@ -1948,7 +1948,7 @@
     "calling_code":"254",
     "currency_symbol":"KES"
   },
-  "408":{
+  {
     "capital":"Pyongyang",
     "citizenship":"North Korean",
     "country_code":"408",
@@ -1965,7 +1965,7 @@
     "calling_code":"850",
     "currency_symbol":"₩"
   },
-  "410":{
+  {
     "capital":"Seoul",
     "citizenship":"South Korean",
     "country_code":"410",
@@ -1982,7 +1982,7 @@
     "calling_code":"82",
     "currency_symbol":"₩"
   },
-  "414":{
+  {
     "capital":"Kuwait City",
     "citizenship":"Kuwaiti",
     "country_code":"414",
@@ -1999,7 +1999,7 @@
     "calling_code":"965",
     "currency_symbol":"KWD"
   },
-  "417":{
+  {
     "capital":"Bishkek",
     "citizenship":"Kyrgyz",
     "country_code":"417",
@@ -2016,7 +2016,7 @@
     "calling_code":"996",
     "currency_symbol":"лв"
   },
-  "418":{
+  {
     "capital":"Vientiane",
     "citizenship":"Lao",
     "country_code":"418",
@@ -2033,7 +2033,7 @@
     "calling_code":"856",
     "currency_symbol":"₭"
   },
-  "422":{
+  {
     "capital":"Beirut",
     "citizenship":"Lebanese",
     "country_code":"422",
@@ -2050,7 +2050,7 @@
     "calling_code":"961",
     "currency_symbol":"£"
   },
-  "426":{
+  {
     "capital":"Maseru",
     "citizenship":"Basotho",
     "country_code":"426",
@@ -2067,7 +2067,7 @@
     "calling_code":"266",
     "currency_symbol":"L"
   },
-  "428":{
+  {
     "capital":"Riga",
     "citizenship":"Latvian",
     "country_code":"428",
@@ -2084,7 +2084,7 @@
     "calling_code":"371",
     "currency_symbol":"Ls"
   },
-  "430":{
+  {
     "capital":"Monrovia",
     "citizenship":"Liberian",
     "country_code":"430",
@@ -2101,7 +2101,7 @@
     "calling_code":"231",
     "currency_symbol":"$"
   },
-  "434":{
+  {
     "capital":"Tripoli",
     "citizenship":"Libyan",
     "country_code":"434",
@@ -2118,7 +2118,7 @@
     "calling_code":"218",
     "currency_symbol":"LYD"
   },
-  "438":{
+  {
     "capital":"Vaduz",
     "citizenship":"Liechtensteiner",
     "country_code":"438",
@@ -2135,7 +2135,7 @@
     "calling_code":"423",
     "currency_symbol":"CHF"
   },
-  "440":{
+  {
     "capital":"Vilnius",
     "citizenship":"Lithuanian",
     "country_code":"440",
@@ -2152,7 +2152,7 @@
     "calling_code":"370",
     "currency_symbol":"Lt"
   },
-  "442":{
+  {
     "capital":"Luxembourg",
     "citizenship":"Luxembourger",
     "country_code":"442",
@@ -2169,7 +2169,7 @@
     "calling_code":"352",
     "currency_symbol":"€"
   },
-  "446":{
+  {
     "capital":"Macao (MO3)",
     "citizenship":"Macanese",
     "country_code":"446",
@@ -2186,7 +2186,7 @@
     "calling_code":"853",
     "currency_symbol":"MOP"
   },
-  "450":{
+  {
     "capital":"Antananarivo",
     "citizenship":"Malagasy",
     "country_code":"450",
@@ -2203,7 +2203,7 @@
     "calling_code":"261",
     "currency_symbol":"MGA"
   },
-  "454":{
+  {
     "capital":"Lilongwe",
     "citizenship":"Malawian",
     "country_code":"454",
@@ -2220,7 +2220,7 @@
     "calling_code":"265",
     "currency_symbol":"MK"
   },
-  "458":{
+  {
     "capital":"Kuala Lumpur (MY1)",
     "citizenship":"Malaysian",
     "country_code":"458",
@@ -2237,7 +2237,7 @@
     "calling_code":"60",
     "currency_symbol":"RM"
   },
-  "462":{
+  {
     "capital":"Malé",
     "citizenship":"Maldivian",
     "country_code":"462",
@@ -2254,7 +2254,7 @@
     "calling_code":"960",
     "currency_symbol":"Rf"
   },
-  "466":{
+  {
     "capital":"Bamako",
     "citizenship":"Malian",
     "country_code":"466",
@@ -2271,7 +2271,7 @@
     "calling_code":"223",
     "currency_symbol":"XOF"
   },
-  "470":{
+  {
     "capital":"Valletta",
     "citizenship":"Maltese",
     "country_code":"470",
@@ -2288,7 +2288,7 @@
     "calling_code":"356",
     "currency_symbol":"MTL"
   },
-  "474":{
+  {
     "capital":"Fort_de_France",
     "citizenship":"Martinican",
     "country_code":"474",
@@ -2305,7 +2305,7 @@
     "calling_code":"596",
     "currency_symbol":"€"
   },
-  "478":{
+  {
     "capital":"Nouakchott",
     "citizenship":"Mauritanian",
     "country_code":"478",
@@ -2322,7 +2322,7 @@
     "calling_code":"222",
     "currency_symbol":"UM"
   },
-  "480":{
+  {
     "capital":"Port Louis",
     "citizenship":"Mauritian",
     "country_code":"480",
@@ -2339,7 +2339,7 @@
     "calling_code":"230",
     "currency_symbol":"₨"
   },
-  "484":{
+  {
     "capital":"Mexico City",
     "citizenship":"Mexican",
     "country_code":"484",
@@ -2356,7 +2356,7 @@
     "calling_code":"52",
     "currency_symbol":"$"
   },
-  "492":{
+  {
     "capital":"Monaco",
     "citizenship":"Monegasque",
     "country_code":"492",
@@ -2373,7 +2373,7 @@
     "calling_code":"377",
     "currency_symbol":"€"
   },
-  "496":{
+  {
     "capital":"Ulan Bator",
     "citizenship":"Mongolian",
     "country_code":"496",
@@ -2390,7 +2390,7 @@
     "calling_code":"976",
     "currency_symbol":"₮"
   },
-  "498":{
+  {
     "capital":"Chisinau",
     "citizenship":"Moldovan",
     "country_code":"498",
@@ -2407,7 +2407,7 @@
     "calling_code":"373",
     "currency_symbol":"MDL"
   },
-  "499":{
+  {
     "capital":"Podgorica",
     "citizenship":"Montenegrin",
     "country_code":"499",
@@ -2423,7 +2423,7 @@
     "eea":false,
     "calling_code":"382"
   },
-  "500":{
+  {
     "capital":"Plymouth (MS2)",
     "citizenship":"Montserratian",
     "country_code":"500",
@@ -2440,7 +2440,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "504":{
+  {
     "capital":"Rabat",
     "citizenship":"Moroccan",
     "country_code":"504",
@@ -2457,7 +2457,7 @@
     "calling_code":"212",
     "currency_symbol":"MAD"
   },
-  "508":{
+  {
     "capital":"Maputo",
     "citizenship":"Mozambican",
     "country_code":"508",
@@ -2474,7 +2474,7 @@
     "calling_code":"258",
     "currency_symbol":"MT"
   },
-  "512":{
+  {
     "capital":"Muscat",
     "citizenship":"Omani",
     "country_code":"512",
@@ -2491,7 +2491,7 @@
     "calling_code":"968",
     "currency_symbol":"﷼"
   },
-  "516":{
+  {
     "capital":"Windhoek",
     "citizenship":"Namibian",
     "country_code":"516",
@@ -2508,7 +2508,7 @@
     "calling_code":"264",
     "currency_symbol":"$"
   },
-  "520":{
+  {
     "capital":"Yaren",
     "citizenship":"Nauruan",
     "country_code":"520",
@@ -2525,7 +2525,7 @@
     "calling_code":"674",
     "currency_symbol":"$"
   },
-  "524":{
+  {
     "capital":"Kathmandu",
     "citizenship":"Nepalese",
     "country_code":"524",
@@ -2542,7 +2542,7 @@
     "calling_code":"977",
     "currency_symbol":"₨"
   },
-  "528":{
+  {
     "capital":"Amsterdam (NL2)",
     "citizenship":"Dutch",
     "country_code":"528",
@@ -2559,7 +2559,7 @@
     "calling_code":"31",
     "currency_symbol":"€"
   },
-  "531":{
+  {
     "capital":"Willemstad",
     "citizenship":"Curaçaoan",
     "country_code":"531",
@@ -2575,7 +2575,7 @@
     "eea":false,
     "calling_code":"599"
   },
-  "533":{
+  {
     "capital":"Oranjestad",
     "citizenship":"Aruban",
     "country_code":"533",
@@ -2592,7 +2592,7 @@
     "calling_code":"297",
     "currency_symbol":"ƒ"
   },
-  "534":{
+  {
     "capital":"Philipsburg",
     "citizenship":"Sint Maartener",
     "country_code":"534",
@@ -2608,7 +2608,7 @@
     "eea":false,
     "calling_code":"721"
   },
-  "535":{
+  {
     "citizenship":"of Bonaire, Sint Eustatius and Saba",
     "country_code":"535",
     "currency":"US dollar",
@@ -2622,7 +2622,7 @@
     "eea":false,
     "calling_code":"599"
   },
-  "540":{
+  {
     "capital":"Nouméa",
     "citizenship":"New Caledonian",
     "country_code":"540",
@@ -2639,7 +2639,7 @@
     "calling_code":"687",
     "currency_symbol":"XPF"
   },
-  "548":{
+  {
     "capital":"Port Vila",
     "citizenship":"Vanuatuan",
     "country_code":"548",
@@ -2656,7 +2656,7 @@
     "calling_code":"678",
     "currency_symbol":"Vt"
   },
-  "554":{
+  {
     "capital":"Wellington",
     "citizenship":"New Zealander",
     "country_code":"554",
@@ -2673,7 +2673,7 @@
     "calling_code":"64",
     "currency_symbol":"$"
   },
-  "558":{
+  {
     "capital":"Managua",
     "citizenship":"Nicaraguan",
     "country_code":"558",
@@ -2690,7 +2690,7 @@
     "calling_code":"505",
     "currency_symbol":"C$"
   },
-  "562":{
+  {
     "capital":"Niamey",
     "citizenship":"Nigerien",
     "country_code":"562",
@@ -2707,7 +2707,7 @@
     "calling_code":"227",
     "currency_symbol":"XOF"
   },
-  "566":{
+  {
     "capital":"Abuja",
     "citizenship":"Nigerian",
     "country_code":"566",
@@ -2724,7 +2724,7 @@
     "calling_code":"234",
     "currency_symbol":"₦"
   },
-  "570":{
+  {
     "capital":"Alofi",
     "citizenship":"Niuean",
     "country_code":"570",
@@ -2741,7 +2741,7 @@
     "calling_code":"683",
     "currency_symbol":"$"
   },
-  "574":{
+  {
     "capital":"Kingston",
     "citizenship":"Norfolk Islander",
     "country_code":"574",
@@ -2758,7 +2758,7 @@
     "calling_code":"672",
     "currency_symbol":"$"
   },
-  "578":{
+  {
     "capital":"Oslo",
     "citizenship":"Norwegian",
     "country_code":"578",
@@ -2775,7 +2775,7 @@
     "calling_code":"47",
     "currency_symbol":"kr"
   },
-  "580":{
+  {
     "capital":"Saipan",
     "citizenship":"Northern Mariana Islander",
     "country_code":"580",
@@ -2792,7 +2792,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "581":{
+  {
     "capital":"United States Minor Outlying Islands",
     "citizenship":"of United States Minor Outlying Islands",
     "country_code":"581",
@@ -2809,7 +2809,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "583":{
+  {
     "capital":"Palikir",
     "citizenship":"Micronesian",
     "country_code":"583",
@@ -2826,7 +2826,7 @@
     "calling_code":"691",
     "currency_symbol":"$"
   },
-  "584":{
+  {
     "capital":"Majuro",
     "citizenship":"Marshallese",
     "country_code":"584",
@@ -2843,7 +2843,7 @@
     "calling_code":"692",
     "currency_symbol":"$"
   },
-  "585":{
+  {
     "capital":"Melekeok",
     "citizenship":"Palauan",
     "country_code":"585",
@@ -2860,7 +2860,7 @@
     "calling_code":"680",
     "currency_symbol":"$"
   },
-  "586":{
+  {
     "capital":"Islamabad",
     "citizenship":"Pakistani",
     "country_code":"586",
@@ -2877,7 +2877,7 @@
     "calling_code":"92",
     "currency_symbol":"₨"
   },
-  "591":{
+  {
     "capital":"Panama City",
     "citizenship":"Panamanian",
     "country_code":"591",
@@ -2894,7 +2894,7 @@
     "calling_code":"507",
     "currency_symbol":"B/."
   },
-  "598":{
+  {
     "capital":"Port Moresby",
     "citizenship":"Papua New Guinean",
     "country_code":"598",
@@ -2911,7 +2911,7 @@
     "calling_code":"675",
     "currency_symbol":"PGK"
   },
-  "600":{
+  {
     "capital":"Asunción",
     "citizenship":"Paraguayan",
     "country_code":"600",
@@ -2928,7 +2928,7 @@
     "calling_code":"595",
     "currency_symbol":"Gs"
   },
-  "604":{
+  {
     "capital":"Lima",
     "citizenship":"Peruvian",
     "country_code":"604",
@@ -2945,7 +2945,7 @@
     "calling_code":"51",
     "currency_symbol":"S/."
   },
-  "608":{
+  {
     "capital":"Manila",
     "citizenship":"Filipino",
     "country_code":"608",
@@ -2962,7 +2962,7 @@
     "calling_code":"63",
     "currency_symbol":"Php"
   },
-  "612":{
+  {
     "capital":"Adamstown",
     "citizenship":"Pitcairner",
     "country_code":"612",
@@ -2979,7 +2979,7 @@
     "calling_code":"649",
     "currency_symbol":"$"
   },
-  "616":{
+  {
     "capital":"Warsaw",
     "citizenship":"Polish",
     "country_code":"616",
@@ -2996,7 +2996,7 @@
     "calling_code":"48",
     "currency_symbol":"zł"
   },
-  "620":{
+  {
     "capital":"Lisbon",
     "citizenship":"Portuguese",
     "country_code":"620",
@@ -3013,7 +3013,7 @@
     "calling_code":"351",
     "currency_symbol":"€"
   },
-  "624":{
+  {
     "capital":"Bissau",
     "citizenship":"Guinea_Bissau national",
     "country_code":"624",
@@ -3030,7 +3030,7 @@
     "calling_code":"245",
     "currency_symbol":"XOF"
   },
-  "626":{
+  {
     "capital":"Dili",
     "citizenship":"East Timorese",
     "country_code":"626",
@@ -3047,7 +3047,7 @@
     "calling_code":"670",
     "currency_symbol":"$"
   },
-  "630":{
+  {
     "capital":"San Juan",
     "citizenship":"Puerto Rican",
     "country_code":"630",
@@ -3064,7 +3064,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "634":{
+  {
     "capital":"Doha",
     "citizenship":"Qatari",
     "country_code":"634",
@@ -3081,7 +3081,7 @@
     "calling_code":"974",
     "currency_symbol":"﷼"
   },
-  "638":{
+  {
     "capital":"Saint_Denis",
     "citizenship":"Reunionese",
     "country_code":"638",
@@ -3098,7 +3098,7 @@
     "calling_code":"262",
     "currency_symbol":"€"
   },
-  "642":{
+  {
     "capital":"Bucharest",
     "citizenship":"Romanian",
     "country_code":"642",
@@ -3115,7 +3115,7 @@
     "calling_code":"40",
     "currency_symbol":"lei"
   },
-  "643":{
+  {
     "capital":"Moscow",
     "citizenship":"Russian",
     "country_code":"643",
@@ -3132,7 +3132,7 @@
     "calling_code":"7",
     "currency_symbol":"руб"
   },
-  "646":{
+  {
     "capital":"Kigali",
     "citizenship":"Rwandan; Rwandese",
     "country_code":"646",
@@ -3149,7 +3149,7 @@
     "calling_code":"250",
     "currency_symbol":"RWF"
   },
-  "652":{
+  {
     "capital":"Gustavia",
     "citizenship":"of Saint Barthélemy",
     "country_code":"652",
@@ -3165,7 +3165,7 @@
     "eea":false,
     "calling_code":"590"
   },
-  "654":{
+  {
     "capital":"Jamestown",
     "citizenship":"Saint Helenian",
     "country_code":"654",
@@ -3182,7 +3182,7 @@
     "calling_code":"290",
     "currency_symbol":"£"
   },
-  "659":{
+  {
     "capital":"Basseterre",
     "citizenship":"Kittsian; Nevisian",
     "country_code":"659",
@@ -3199,7 +3199,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "660":{
+  {
     "capital":"The Valley",
     "citizenship":"Anguillan",
     "country_code":"660",
@@ -3216,7 +3216,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "662":{
+  {
     "capital":"Castries",
     "citizenship":"Saint Lucian",
     "country_code":"662",
@@ -3233,7 +3233,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "663":{
+  {
     "capital":"Marigot",
     "citizenship":"of Saint Martin",
     "country_code":"663",
@@ -3249,7 +3249,7 @@
     "eea":false,
     "calling_code":"590"
   },
-  "666":{
+  {
     "capital":"Saint_Pierre",
     "citizenship":"St_Pierrais; Miquelonnais",
     "country_code":"666",
@@ -3266,7 +3266,7 @@
     "calling_code":"508",
     "currency_symbol":"€"
   },
-  "670":{
+  {
     "capital":"Kingstown",
     "citizenship":"Vincentian",
     "country_code":"670",
@@ -3283,7 +3283,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "674":{
+  {
     "capital":"San Marino",
     "citizenship":"San Marinese",
     "country_code":"674",
@@ -3300,7 +3300,7 @@
     "calling_code":"378",
     "currency_symbol":"€"
   },
-  "678":{
+  {
     "capital":"São Tomé",
     "citizenship":"São Toméan",
     "country_code":"678",
@@ -3317,7 +3317,7 @@
     "calling_code":"239",
     "currency_symbol":"Db"
   },
-  "682":{
+  {
     "capital":"Riyadh",
     "citizenship":"Saudi Arabian",
     "country_code":"682",
@@ -3334,7 +3334,7 @@
     "calling_code":"966",
     "currency_symbol":"﷼"
   },
-  "686":{
+  {
     "capital":"Dakar",
     "citizenship":"Senegalese",
     "country_code":"686",
@@ -3351,7 +3351,7 @@
     "calling_code":"221",
     "currency_symbol":"XOF"
   },
-  "688":{
+  {
     "capital":"Belgrade",
     "citizenship":"Serb",
     "country_code":"688",
@@ -3367,7 +3367,7 @@
     "eea":false,
     "calling_code":"381"
   },
-  "690":{
+  {
     "capital":"Victoria",
     "citizenship":"Seychellois",
     "country_code":"690",
@@ -3384,7 +3384,7 @@
     "calling_code":"248",
     "currency_symbol":"₨"
   },
-  "694":{
+  {
     "capital":"Freetown",
     "citizenship":"Sierra Leonean",
     "country_code":"694",
@@ -3401,7 +3401,7 @@
     "calling_code":"232",
     "currency_symbol":"Le"
   },
-  "702":{
+  {
     "capital":"Singapore",
     "citizenship":"Singaporean",
     "country_code":"702",
@@ -3418,7 +3418,7 @@
     "calling_code":"65",
     "currency_symbol":"$"
   },
-  "703":{
+  {
     "capital":"Bratislava",
     "citizenship":"Slovak",
     "country_code":"703",
@@ -3435,7 +3435,7 @@
     "calling_code":"421",
     "currency_symbol":"Sk"
   },
-  "704":{
+  {
     "capital":"Hanoi",
     "citizenship":"Vietnamese",
     "country_code":"704",
@@ -3452,7 +3452,7 @@
     "calling_code":"84",
     "currency_symbol":"₫"
   },
-  "705":{
+  {
     "capital":"Ljubljana",
     "citizenship":"Slovene",
     "country_code":"705",
@@ -3469,7 +3469,7 @@
     "calling_code":"386",
     "currency_symbol":"€"
   },
-  "706":{
+  {
     "capital":"Mogadishu",
     "citizenship":"Somali",
     "country_code":"706",
@@ -3486,7 +3486,7 @@
     "calling_code":"252",
     "currency_symbol":"S"
   },
-  "710":{
+  {
     "capital":"Pretoria (ZA1)",
     "citizenship":"South African",
     "country_code":"710",
@@ -3503,7 +3503,7 @@
     "calling_code":"27",
     "currency_symbol":"R"
   },
-  "716":{
+  {
     "capital":"Harare",
     "citizenship":"Zimbabwean",
     "country_code":"716",
@@ -3520,7 +3520,7 @@
     "calling_code":"263",
     "currency_symbol":"Z$"
   },
-  "724":{
+  {
     "capital":"Madrid",
     "citizenship":"Spaniard",
     "country_code":"724",
@@ -3537,7 +3537,7 @@
     "calling_code":"34",
     "currency_symbol":"€"
   },
-  "728":{
+  {
     "capital":"Juba",
     "citizenship":"South Sudanese",
     "country_code":"728",
@@ -3553,7 +3553,7 @@
     "eea":false,
     "calling_code":"211"
   },
-  "729":{
+  {
     "capital":"Khartoum",
     "citizenship":"Sudanese",
     "country_code":"729",
@@ -3569,7 +3569,7 @@
     "eea":false,
     "calling_code":"249"
   },
-  "732":{
+  {
     "capital":"Al aaiun",
     "citizenship":"Sahrawi",
     "country_code":"732",
@@ -3586,7 +3586,7 @@
     "calling_code":"212",
     "currency_symbol":"MAD"
   },
-  "740":{
+  {
     "capital":"Paramaribo",
     "citizenship":"Surinamese",
     "country_code":"740",
@@ -3603,7 +3603,7 @@
     "calling_code":"597",
     "currency_symbol":"$"
   },
-  "744":{
+  {
     "capital":"Longyearbyen",
     "citizenship":"of Svalbard",
     "country_code":"744",
@@ -3620,7 +3620,7 @@
     "calling_code":"47",
     "currency_symbol":"kr"
   },
-  "748":{
+  {
     "capital":"Mbabane",
     "citizenship":"Swazi",
     "country_code":"748",
@@ -3637,7 +3637,7 @@
     "calling_code":"268",
     "currency_symbol":"SZL"
   },
-  "752":{
+  {
     "capital":"Stockholm",
     "citizenship":"Swedish",
     "country_code":"752",
@@ -3654,7 +3654,7 @@
     "calling_code":"46",
     "currency_symbol":"kr"
   },
-  "756":{
+  {
     "capital":"Berne",
     "citizenship":"Swiss",
     "country_code":"756",
@@ -3671,7 +3671,7 @@
     "calling_code":"41",
     "currency_symbol":"CHF"
   },
-  "760":{
+  {
     "capital":"Damascus",
     "citizenship":"Syrian",
     "country_code":"760",
@@ -3688,7 +3688,7 @@
     "calling_code":"963",
     "currency_symbol":"£"
   },
-  "762":{
+  {
     "capital":"Dushanbe",
     "citizenship":"Tajik",
     "country_code":"762",
@@ -3705,7 +3705,7 @@
     "calling_code":"992",
     "currency_symbol":"TJS"
   },
-  "764":{
+  {
     "capital":"Bangkok",
     "citizenship":"Thai",
     "country_code":"764",
@@ -3722,7 +3722,7 @@
     "calling_code":"66",
     "currency_symbol":"฿"
   },
-  "768":{
+  {
     "capital":"Lomé",
     "citizenship":"Togolese",
     "country_code":"768",
@@ -3739,7 +3739,7 @@
     "calling_code":"228",
     "currency_symbol":"XOF"
   },
-  "772":{
+  {
     "capital":"(TK2)",
     "citizenship":"Tokelauan",
     "country_code":"772",
@@ -3756,7 +3756,7 @@
     "calling_code":"690",
     "currency_symbol":"$"
   },
-  "776":{
+  {
     "capital":"Nuku’alofa",
     "citizenship":"Tongan",
     "country_code":"776",
@@ -3773,7 +3773,7 @@
     "calling_code":"676",
     "currency_symbol":"T$"
   },
-  "780":{
+  {
     "capital":"Port of Spain",
     "citizenship":"Trinidadian; Tobagonian",
     "country_code":"780",
@@ -3790,7 +3790,7 @@
     "calling_code":"1",
     "currency_symbol":"TT$"
   },
-  "784":{
+  {
     "capital":"Abu Dhabi",
     "citizenship":"Emirian",
     "country_code":"784",
@@ -3807,7 +3807,7 @@
     "calling_code":"971",
     "currency_symbol":"AED"
   },
-  "788":{
+  {
     "capital":"Tunis",
     "citizenship":"Tunisian",
     "country_code":"788",
@@ -3824,7 +3824,7 @@
     "calling_code":"216",
     "currency_symbol":"TND"
   },
-  "792":{
+  {
     "capital":"Ankara",
     "citizenship":"Turk",
     "country_code":"792",
@@ -3841,7 +3841,7 @@
     "calling_code":"90",
     "currency_symbol":"YTL"
   },
-  "795":{
+  {
     "capital":"Ashgabat",
     "citizenship":"Turkmen",
     "country_code":"795",
@@ -3858,7 +3858,7 @@
     "calling_code":"993",
     "currency_symbol":"m"
   },
-  "796":{
+  {
     "capital":"Cockburn Town",
     "citizenship":"Turks and Caicos Islander",
     "country_code":"796",
@@ -3875,7 +3875,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "798":{
+  {
     "capital":"Funafuti",
     "citizenship":"Tuvaluan",
     "country_code":"798",
@@ -3892,7 +3892,7 @@
     "calling_code":"688",
     "currency_symbol":"$"
   },
-  "800":{
+  {
     "capital":"Kampala",
     "citizenship":"Ugandan",
     "country_code":"800",
@@ -3909,7 +3909,7 @@
     "calling_code":"256",
     "currency_symbol":"UGX"
   },
-  "804":{
+  {
     "capital":"Kiev",
     "citizenship":"Ukrainian",
     "country_code":"804",
@@ -3926,7 +3926,7 @@
     "calling_code":"380",
     "currency_symbol":"₴"
   },
-  "807":{
+  {
     "capital":"Skopje",
     "citizenship":"of the former Yugoslav Republic of Macedonia",
     "country_code":"807",
@@ -3943,7 +3943,7 @@
     "calling_code":"389",
     "currency_symbol":"ден"
   },
-  "818":{
+  {
     "capital":"Cairo",
     "citizenship":"Egyptian",
     "country_code":"818",
@@ -3960,7 +3960,7 @@
     "calling_code":"20",
     "currency_symbol":"£"
   },
-  "826":{
+  {
     "capital":"London",
     "citizenship":"British",
     "country_code":"826",
@@ -3977,7 +3977,7 @@
     "calling_code":"44",
     "currency_symbol":"£"
   },
-  "831":{
+  {
     "capital":"St Peter Port",
     "citizenship":"of Guernsey",
     "country_code":"831",
@@ -3993,7 +3993,7 @@
     "eea":false,
     "calling_code":"44"
   },
-  "832":{
+  {
     "capital":"St Helier",
     "citizenship":"of Jersey",
     "country_code":"832",
@@ -4009,7 +4009,7 @@
     "eea":false,
     "calling_code":"44"
   },
-  "833":{
+  {
     "capital":"Douglas",
     "citizenship":"Manxman; Manxwoman",
     "country_code":"833",
@@ -4025,7 +4025,7 @@
     "eea":false,
     "calling_code":"44"
   },
-  "834":{
+  {
     "capital":"Dodoma (TZ1)",
     "citizenship":"Tanzanian",
     "country_code":"834",
@@ -4042,7 +4042,7 @@
     "calling_code":"255",
     "currency_symbol":"TZS"
   },
-  "840":{
+  {
     "capital":"Washington DC",
     "citizenship":"American",
     "country_code":"840",
@@ -4059,7 +4059,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "850":{
+  {
     "capital":"Charlotte Amalie",
     "citizenship":"US Virgin Islander",
     "country_code":"850",
@@ -4076,7 +4076,7 @@
     "calling_code":"1",
     "currency_symbol":"$"
   },
-  "854":{
+  {
     "capital":"Ouagadougou",
     "citizenship":"Burkinabe",
     "country_code":"854",
@@ -4093,7 +4093,7 @@
     "calling_code":"226",
     "currency_symbol":"XOF"
   },
-  "858":{
+  {
     "capital":"Montevideo",
     "citizenship":"Uruguayan",
     "country_code":"858",
@@ -4110,7 +4110,7 @@
     "calling_code":"598",
     "currency_symbol":"$U"
   },
-  "860":{
+  {
     "capital":"Tashkent",
     "citizenship":"Uzbek",
     "country_code":"860",
@@ -4127,7 +4127,7 @@
     "calling_code":"998",
     "currency_symbol":"лв"
   },
-  "862":{
+  {
     "capital":"Caracas",
     "citizenship":"Venezuelan",
     "country_code":"862",
@@ -4144,7 +4144,7 @@
     "calling_code":"58",
     "currency_symbol":"Bs"
   },
-  "876":{
+  {
     "capital":"Mata_Utu",
     "citizenship":"Wallisian; Futunan; Wallis and Futuna Islander",
     "country_code":"876",
@@ -4161,7 +4161,7 @@
     "calling_code":"681",
     "currency_symbol":"XPF"
   },
-  "882":{
+  {
     "capital":"Apia",
     "citizenship":"Samoan",
     "country_code":"882",
@@ -4178,7 +4178,7 @@
     "calling_code":"685",
     "currency_symbol":"WS$"
   },
-  "887":{
+  {
     "capital":"San’a",
     "citizenship":"Yemenite",
     "country_code":"887",
@@ -4195,7 +4195,7 @@
     "calling_code":"967",
     "currency_symbol":"﷼"
   },
-  "894":{
+  {
     "capital":"Lusaka",
     "citizenship":"Zambian",
     "country_code":"894",
@@ -4212,4 +4212,4 @@
     "calling_code":"260",
     "currency_symbol":"ZK"
   }
-}
+]
