@@ -17,7 +17,7 @@ class LanguagesTableSeeder extends Seeder
         // Empty the table
         Languages::truncate();
 
-        //Get all of the countries
+        // Get all from the JSON file
         $JSON_languages = Languages::allJSON();
 
         foreach ($JSON_languages as $language) {

@@ -18,12 +18,12 @@ class TimeZonesTableSeeder extends Seeder
         // Empty the table
         TimeZones::truncate();
 
-        //Get all of the countries
+        // Get all from the JSON file
         $JSON_timezones = TimeZones::allJSON();
 
         foreach ($JSON_timezones as $timezone) {
             TimeZones::create([
-                'name'      => ((isset($timezone['value'])) ? $timezone['value'] : null),
+                'name'      => ((isset($timezone['name'])) ? $timezone['name'] : null),
                 'abbr'      => ((isset($timezone['abbr'])) ? $timezone['abbr'] : null),
                 'offset'    => ((isset($timezone['offset'])) ? $timezone['offset'] : null),
                 'isdst'     => ((isset($timezone['isdst'])) ? $timezone['isdst'] : null),

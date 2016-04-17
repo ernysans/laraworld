@@ -36,6 +36,24 @@ class TimeZones extends Model
 	];
 
 	/**
+	 * @param $utc
+	 * @return mixed
+	 */
+	public function setUtcAttribute($utc)
+	{
+		$this->attributes['utc'] = json_encode($utc);
+	}
+
+	/**
+	 * @param $utc
+	 * @return mixed
+	 */
+	public function getUtcAttribute($utc)
+	{
+		return json_decode($utc);
+	}
+
+	/**
 	 * Get all the countries from the JSON file.
 	 *
 	 * @return array
