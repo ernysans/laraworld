@@ -1,13 +1,13 @@
 {
-    "name": "ernysans/countries",
-    "description": "Countries Package for Laravel 5.*",
+    "name": "ernysans/laraworld",
+    "description": "Countries, Languages and Time Zones Package for Laravel 5.*",
     "version": "master",
     "type": "package",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "source": {
       "type": "git",
-      "url": "git@github.com:ernysans/countries.git",
+      "url": "git@github.com:ernysans/laraworld.git",
       "reference": "origin/master"
     },
     "require": {
@@ -24,7 +24,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "ErnySans\\Countries\\": "src/"
+            "ErnySans\\Laraworld\\": "src/"
         }
     }
 }

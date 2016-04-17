@@ -1,11 +1,11 @@
-# Countries
-Countries Package for Laravel 5.*
+# Laraworld
+Countries, Languages and Time Zones Package for Laravel 5.*
 
 ## Installation
 This package can be installed through Composer.
 
 ```bash
-composer require ernysans/countries
+composer require ernysans/laraworld
 ```
 
 When using Laravel there is a service provider that you can make use of.
@@ -15,14 +15,14 @@ When using Laravel there is a service provider that you can make use of.
 
 'providers' => [
     '...',
-    ErnySans\Countries\CountriesServiceProvider::class
+    ErnySans\Laraworld\LaraworldServiceProvider::class
 ];
 ```
 
 Publish Migrations and Seeds
 
 ```bash
-php artisan vendor:publish --provider="ErnySans\Countries\CountriesServiceProvider"
+php artisan vendor:publish --provider="ErnySans\Laraworld\LaraworldServiceProvider"
 ```
 
 Prepare Seed.
