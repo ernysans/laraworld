@@ -19,7 +19,7 @@ class TimeZonesTableSeeder extends Seeder
         TimeZones::truncate();
 
         //Get all of the countries
-        $JSON_timezones = TimeZones::getTimeZones();
+        $JSON_timezones = TimeZones::allJSON();
 
         foreach ($JSON_timezones as $timezone) {
             TimeZones::create([

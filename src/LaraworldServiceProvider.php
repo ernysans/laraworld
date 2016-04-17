@@ -2,12 +2,16 @@
 
 namespace ErnySans\Laraworld;
 
+use ErnySans\Laraworld\Models\Countries;
 use Illuminate\Support\ServiceProvider;
 
 class LaraworldServiceProvider extends ServiceProvider
 {
     public function register()
     {
+        $this->app->bind('countries', function() {
+            return new Countries;
+        });
     }
 
     /**
