@@ -1,6 +1,6 @@
 <?php
 
-namespace ErnySans\Countries;
+namespace ErnySans\Laraworld;
 
 use Illuminate\Support\ServiceProvider;
 
