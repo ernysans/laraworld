@@ -31,6 +31,7 @@
     },
     "autoload-dev": {
       "classmap": [
+        "tests/",
         "tests/TestCaseApp.php"
       ]
     }
