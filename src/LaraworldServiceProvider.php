@@ -48,7 +48,7 @@ class LaraworldServiceProvider extends ServiceProvider
         $countries_migration = $this->getTimePath('create_countries_table', 'migrations');
 
         $this->publishes([
-            __DIR__.'/Database/migrations/create_countries_table.php' => database_path($countries_migration)
+            __DIR__.'/Database/migrations/0000_00_00_000000_create_countries_table.php' => database_path($countries_migration)
         ], 'migrate-countries');
 
         // Countries Seed ==============================
@@ -61,7 +61,7 @@ class LaraworldServiceProvider extends ServiceProvider
         $languages_migration = $this->getTimePath('create_languages_table', 'migrations');
 
         $this->publishes([
-            __DIR__.'/Database/migrations/create_languages_table.php' => database_path($languages_migration)
+            __DIR__.'/Database/migrations/0000_00_00_000000_create_languages_table.php' => database_path($languages_migration)
         ], 'migrate-languages');
 
         // Languages Seed ==============================
@@ -74,7 +74,7 @@ class LaraworldServiceProvider extends ServiceProvider
         $time_zones_migration = $this->getTimePath('create_time_zones_table', 'migrations');
 
         $this->publishes([
-            __DIR__.'/Database/migrations/create_time_zones_table.php' => database_path($time_zones_migration)
+            __DIR__.'/Database/migrations/0000_00_00_000000_create_time_zones_table.php' => database_path($time_zones_migration)
         ], 'migrate-time-zone');
 
         // Time Zones Seed =============================
@@ -83,4 +83,5 @@ class LaraworldServiceProvider extends ServiceProvider
         ], 'seed-time-zone');
 
     }
+
 }
