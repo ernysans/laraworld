@@ -32,10 +32,6 @@ Prepare Seeds.
 ```php
 // database/seeds/DatabaseSeeder.php
 
-use ErnySans\Laraworld\Database\seeds\CountriesTableSeeder;
-use ErnySans\Laraworld\Database\seeds\TimeZonesTableSeeder;
-use ErnySans\Laraworld\Database\seeds\LanguagesTableSeeder;
-
 class DatabaseSeeder extends Seeder
 {
 

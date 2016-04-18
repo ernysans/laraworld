@@ -79,7 +79,7 @@ class LaraworldServiceProvider extends ServiceProvider
 
         // Time Zones Seed =============================
         $this->publishes([
-            __DIR__.'/Database/seeds/TimeZonesTableSeeder.php' => database_path('seeds/LanguagesTableSeeder.php')
+            __DIR__.'/Database/seeds/TimeZonesTableSeeder.php' => database_path('seeds/TimeZonesTableSeeder.php')
         ], 'seed-time-zone');
 
     }
