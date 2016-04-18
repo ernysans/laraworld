@@ -4,6 +4,7 @@ use Illuminate\Support\Facades\Artisan;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Schema;
 
 class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
@@ -21,6 +22,12 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
         $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
         return $app;
     }
+
+	private function createTables()
+	{
+
+
+	}
 
 	/**
 	 * Export migrations
@@ -41,6 +48,7 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
 	public function setUp()
 	{
 		parent::setUp();
+		$this->createTables();
 		$this->migrateFirst();
 		Artisan::call('migrate');
 	}
