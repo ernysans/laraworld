@@ -32,10 +32,7 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
 
 		$destinationDir = database_path('migrations');
 		$success = File::copyDirectory($sourceDir, $destinationDir);
-		$this->assertTrue($success);
-
-		return true;
-
+		return $success;
 	}
 
 	/**
