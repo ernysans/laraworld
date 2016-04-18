@@ -1,7 +1,15 @@
 <?php
 
+use Illuminate\Support\Facades\Artisan;
+use Illuminate\Foundation\Testing\WithoutMiddleware;
+use Illuminate\Foundation\Testing\WithoutEvents;
+use Illuminate\Foundation\Testing\DatabaseMigrations;
+
 class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
+
+	use WithoutMiddleware, WithoutEvents, DatabaseMigrations;
+
     /**
      * The base URL to use while testing the application.
      *
@@ -21,5 +29,18 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
         $app->make(Illuminate\Contracts\Console\Kernel::class)->bootstrap();
 
         return $app;
+    }
+
+    public function setUp()
+    {
+        parent::setUp();
+        Artisan::call('migrate');
+        Artisan::call('db:seed');
+    }
+
+    public function tearDown()
+    {
+        Artisan::call('migrate:reset');
+        parent::tearDown();
     }
 }
