@@ -36,6 +36,17 @@ class Languages extends Model
 	];
 
 	/**
+	 * he attributes that are mass assignable.
+	 *
+	 * @var array
+	 */
+	protected $fillable = [
+		'alpha3',
+		'alpha2',
+		'english',
+	];
+
+	/**
 	 * Get all the countries from the JSON file.
 	 *
 	 * @return array
