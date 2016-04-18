@@ -31,8 +31,7 @@
     },
     "autoload-dev": {
       "classmap": [
-        "tests/",
-        "vendor/laravel/laravel/tests/"
+        "tests/"
       ]
     }
 }
