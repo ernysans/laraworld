@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ernysans/laraworld.svg?branch=master)](https://travis-ci.org/ernysans/laraworld)
+
 # Laraworld
 Countries, Languages and Time Zones Package for Laravel and Lumen 5.*
 
