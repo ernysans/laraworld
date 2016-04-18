@@ -2,7 +2,7 @@
 
 use ErnySans\Laraworld\Models\TimeZones;
 
-class TimeZonesTest extends PHPUnit_Framework_TestCase
+class TimeZonesTest extends TestCase
 {
     /**
      * A basic test example.
