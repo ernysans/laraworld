@@ -2,7 +2,7 @@
 
 use ErnySans\Laraworld\Models\Countries;
 
-class CountriesTest extends TestCase
+class CountriesTest extends TestCaseApp
 {
     /**
      * A basic test example.

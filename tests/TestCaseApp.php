@@ -1,11 +1,11 @@
 <?php
 
-class TestCase extends Laravel\Lumen\Testing\TestCase
+class TestCaseApp extends Illuminate\Foundation\Testing\TestCase
 {
     /**
      * Creates the application.
      *
-     * @return \Laravel\Lumen\Application
+	 * @return \Illuminate\Foundation\Application
      */
     public function createApplication()
     {

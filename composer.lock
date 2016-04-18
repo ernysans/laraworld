@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "3cb49367a868eb01f400d94342d76c85",
-    "content-hash": "b9421f920e466a4dec96af768f13c08a",
+    "hash": "fc5ebb08564869e21f487a4791129246",
+    "content-hash": "d84e83bbc2d15a7ffd6a5736d3a5c7bf",
     "packages": [],
     "packages-dev": [
         {
@@ -490,30 +490,35 @@
             "time": "2016-04-03 01:43:55"
         },
         {
-            "name": "laravel/lumen",
-            "version": "v5.2.1",
+            "name": "laravel/laravel",
+            "version": "v5.2.29",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laravel/lumen.git",
-                "reference": "396da160331600dec1269c667c367e0c12a2676b"
+                "url": "https://github.com/laravel/laravel.git",
+                "reference": "9fa63f8ce856ec4b5c7869cd5cd597b66590ea38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/lumen/zipball/396da160331600dec1269c667c367e0c12a2676b",
-                "reference": "396da160331600dec1269c667c367e0c12a2676b",
+                "url": "https://api.github.com/repos/laravel/laravel/zipball/9fa63f8ce856ec4b5c7869cd5cd597b66590ea38",
+                "reference": "9fa63f8ce856ec4b5c7869cd5cd597b66590ea38",
                 "shasum": ""
             },
             "require": {
-                "laravel/lumen-framework": "5.2.*",
-                "php": ">=5.5.9",
-                "vlucas/phpdotenv": "~2.2"
+                "laravel/framework": "5.2.*",
+                "php": ">=5.5.9"
             },
             "require-dev": {
                 "fzaninotto/faker": "~1.4",
-                "phpunit/phpunit": "~4.0"
+                "mockery/mockery": "0.9.*",
+                "phpunit/phpunit": "~4.0",
+                "symfony/css-selector": "2.8.*|3.0.*",
+                "symfony/dom-crawler": "2.8.*|3.0.*"
             },
             "type": "project",
             "autoload": {
+                "classmap": [
+                    "database"
+                ],
                 "psr-4": {
                     "App\\": "app/"
                 }
@@ -522,97 +527,12 @@
             "license": [
                 "MIT"
             ],
-            "description": "The Laravel Lumen Framework.",
+            "description": "The Laravel Framework.",
             "keywords": [
                 "framework",
-                "laravel",
-                "lumen"
+                "laravel"
             ],
-            "time": "2016-01-07 23:11:27"
-        },
-        {
-            "name": "laravel/lumen-framework",
-            "version": "v5.2.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/laravel/lumen-framework.git",
-                "reference": "4e8af6b6792a212fd7d405469add56a514f100c0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/laravel/lumen-framework/zipball/4e8af6b6792a212fd7d405469add56a514f100c0",
-                "reference": "4e8af6b6792a212fd7d405469add56a514f100c0",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/auth": "5.2.*",
-                "illuminate/broadcasting": "5.2.*",
-                "illuminate/bus": "5.2.*",
-                "illuminate/cache": "5.2.*",
-                "illuminate/config": "5.2.*",
-                "illuminate/container": "5.2.*",
-                "illuminate/contracts": "5.2.*",
-                "illuminate/database": "5.2.*",
-                "illuminate/encryption": "5.2.*",
-                "illuminate/events": "5.2.*",
-                "illuminate/filesystem": "5.2.*",
-                "illuminate/hashing": "5.2.*",
-                "illuminate/http": "5.2.*",
-                "illuminate/pagination": "5.2.*",
-                "illuminate/pipeline": "5.2.*",
-                "illuminate/queue": "5.2.*",
-                "illuminate/support": "5.2.*",
-                "illuminate/translation": "5.2.*",
-                "illuminate/validation": "~5.2.7",
-                "illuminate/view": "5.2.*",
-                "monolog/monolog": "~1.11",
-                "mtdowling/cron-expression": "~1.0",
-                "nikic/fast-route": "0.7.*",
-                "paragonie/random_compat": "~1.1",
-                "php": ">=5.5.9",
-                "symfony/http-foundation": "2.8.*|3.0.*",
-                "symfony/http-kernel": "2.8.*|3.0.*",
-                "symfony/polyfill-php56": "~1.0"
-            },
-            "require-dev": {
-                "mockery/mockery": "~0.9",
-                "phpunit/phpunit": "~4.0"
-            },
-            "suggest": {
-                "vlucas/phpdotenv": "Required to use .env files (~2.2)."
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "5.2-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Laravel\\Lumen\\": "src/"
-                },
-                "files": [
-                    "src/helpers.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Taylor Otwell",
-                    "email": "taylorotwell@gmail.com"
-                }
-            ],
-            "description": "The Laravel Lumen Framework.",
-            "homepage": "http://laravel.com",
-            "keywords": [
-                "framework",
-                "laravel",
-                "lumen"
-            ],
-            "time": "2016-03-18 15:23:13"
+            "time": "2016-04-01 21:06:45"
         },
         {
             "name": "league/flysystem",
@@ -907,49 +827,6 @@
                 "time"
             ],
             "time": "2015-11-04 20:07:17"
-        },
-        {
-            "name": "nikic/fast-route",
-            "version": "v0.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/nikic/FastRoute.git",
-                "reference": "8164b4a0d8afde4eae5f1bfc39084972ba23ad36"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/nikic/FastRoute/zipball/8164b4a0d8afde4eae5f1bfc39084972ba23ad36",
-                "reference": "8164b4a0d8afde4eae5f1bfc39084972ba23ad36",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "FastRoute\\": "src/"
-                },
-                "files": [
-                    "src/functions.php"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Nikita Popov",
-                    "email": "nikic@php.net"
-                }
-            ],
-            "description": "Fast request router for PHP",
-            "keywords": [
-                "router",
-                "routing"
-            ],
-            "time": "2015-12-20 19:50:12"
         },
         {
             "name": "nikic/php-parser",
