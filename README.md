@@ -1,11 +1,11 @@
 # Laraworld
-Countries, Languages and Time Zones Package for Laravel 5.*
+Countries, Languages and Time Zones Package for Laravel and Lumen 5.*
 
 ## Installation
 This package can be installed through Composer.
 
 ```bash
-composer require ernysans/laraworld
+$ composer require ernysans/laraworld
 ```
 
 When using Laravel there is a service provider that you can make use of.
@@ -22,10 +22,10 @@ When using Laravel there is a service provider that you can make use of.
 Publish Migrations
 
 ```bash
-php artisan vendor:publish --provider="ErnySans\Laraworld\LaraworldServiceProvider"
+$ php artisan vendor:publish --provider="ErnySans\Laraworld\LaraworldServiceProvider"
 ```
 
-Prepare Seed.
+Prepare Seeds.
 
 ```php
 // database/seeds/DatabaseSeeder.php
@@ -50,13 +50,23 @@ class DatabaseSeeder extends Seeder
     }
 }
 ```
-
+## Run Migrations and Seed the tables
+```bash
+$ php artisan migrate
+$ php artisan db:seed
+```
 ## Use
-These methods is provided:
+These methods are provided:
 
-* `getCountries()`: Get all the countries from the JSON file, you don't need to run migrations to get all the data in JSON format.
-
+### Collections Methods
 When using Laravel you can work with the [Collection Available Methods](https://laravel.com/docs/master/collections).
+
+### From JSON file (Optional)
+Use this methods If you want to get all the data from the JSON file:
+
+* `Countries::getCountries()`: Get all the countries from the JSON file.
+* `Languages::getCountries()`: Get all the languages from the JSON file.
+* `TimeZones::getCountries()`: Get all the Time zones from the JSON file.
 
 ## Credits
 
