@@ -2,7 +2,7 @@
 
 use ErnySans\Laraworld\Models\TimeZones;
 
-class TimeZonesTest extends TestCaseApp
+class TimeZonesTest extends TestCase
 {
     /**
      * A basic test example.
