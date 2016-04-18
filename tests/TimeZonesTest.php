@@ -1,10 +1,9 @@
 <?php
 
-use ErnySans\Laraworld\Database\seeds\TimeZonesTableSeeder;
 use ErnySans\Laraworld\Models\TimeZones;
 use Illuminate\Support\Facades\Schema;
 
-class TimeZonesTest extends TestCase
+class TimeZonesTest extends AppTestCase
 {
 	/**
      * Check if JSON file exist
@@ -29,9 +28,6 @@ class TimeZonesTest extends TestCase
      */
     public function testItCanSeed()
     {
-        $seed = new TimeZonesTableSeeder();
-        $seed->run();
-
         $timeZones = TimeZones::all();
         $this->assertNotNull($timeZones->count());
     }

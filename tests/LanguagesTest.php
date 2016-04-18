@@ -1,10 +1,9 @@
 <?php
 
-use ErnySans\Laraworld\Database\seeds\LanguagesTableSeeder;
 use ErnySans\Laraworld\Models\Languages;
 use Illuminate\Support\Facades\Schema;
 
-class LanguagesTest extends TestCase
+class LanguagesTest extends AppTestCase
 {
     /**
      * Check if JSON file exist
@@ -29,9 +28,6 @@ class LanguagesTest extends TestCase
      */
     public function testItCanSeed()
     {
-        $seed = new LanguagesTableSeeder();
-        $seed->run();
-
         $languages = Languages::all();
         $this->assertNotNull($languages->count());
     }

@@ -1,12 +1,11 @@
 <?php
 
-use ErnySans\Laraworld\Database\seeds\CountriesTableSeeder;
 use ErnySans\Laraworld\Models\Countries;
 use Illuminate\Support\Facades\Schema;
 
-class CountriesTest extends TestCase
+class CountriesTest extends AppTestCase
 {
-    /**
+	/**
      * Check if JSON file exist
      */
     public function testItFetchesJsonFile()
@@ -29,9 +28,6 @@ class CountriesTest extends TestCase
 	 */
 	public function testItCanSeed()
 	{
-		$seed = new CountriesTableSeeder();
-		$seed->run();
-
 		$countries = Countries::all();
 		$this->assertNotNull($countries->count());
 	}
