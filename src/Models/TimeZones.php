@@ -36,6 +36,20 @@ class TimeZones extends Model
 	];
 
 	/**
+	 * he attributes that are mass assignable.
+	 *
+	 * @var array
+	 */
+	protected $fillable = [
+		'name',
+		'abbr',
+		'offset',
+		'isdst',
+		'text',
+		'utc',
+	];
+
+	/**
 	 * @param $utc
 	 * @return mixed
 	 */

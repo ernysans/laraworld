@@ -36,6 +36,29 @@ class Countries extends Model
     ];
 
     /**
+     * he attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'name',
+        'full_name',
+        'capital',
+        'citizenship',
+        'currency',
+        'currency_code',
+        'currency_sub_unit',
+        'currency_symbol',
+        'country_code',
+        'region_code',
+        'sub_region_code',
+        'eea',
+        'calling_code',
+        'iso_3166_2',
+        'iso_3166_3',
+    ];
+
+    /**
      * Get all the countries from the JSON file.
      *
      * @return array

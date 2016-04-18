@@ -2,22 +2,15 @@
 
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Foundation\Testing\WithoutMiddleware;
-use Illuminate\Foundation\Testing\WithoutEvents;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
+use Illuminate\Support\Facades\File;
 
 class TestCase extends Illuminate\Foundation\Testing\TestCase
 {
 
-	use WithoutMiddleware, WithoutEvents, DatabaseMigrations;
+	use WithoutMiddleware, DatabaseMigrations;
 
-    /**
-     * The base URL to use while testing the application.
-     *
-     * @var string
-     */
-    protected $baseUrl = 'http://localhost';
-
-    /**
+	/**
      * Creates the application.
      *
      * @return \Illuminate\Foundation\Application
@@ -31,16 +24,34 @@ class TestCase extends Illuminate\Foundation\Testing\TestCase
         return $app;
     }
 
-    public function setUp()
-    {
-        parent::setUp();
-        Artisan::call('migrate');
-        Artisan::call('db:seed');
-    }
+	/**
+	 * Copy migrations
+	 */
+	public function testItPublishMigrations()
+	{
+		$sourceDir = __DIR__.'/../src/Database/migrations/';
 
-    public function tearDown()
-    {
-        Artisan::call('migrate:reset');
-        parent::tearDown();
-    }
+		$destinationDir = database_path('migrations');
+		$success = File::copyDirectory($sourceDir, $destinationDir);
+		$this->assertTrue($success);
+	}
+
+	/**
+	 * Run before every test
+	 */
+	public function setUp()
+	{
+		parent::setUp();
+		Artisan::call('migrate');
+	}
+
+	/**
+	 * Run after every test
+	 */
+	public function tearDown()
+	{
+		Artisan::call('migrate:reset');
+		parent::tearDown();
+	}
+	
 }
