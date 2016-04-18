@@ -58,7 +58,7 @@ $ php artisan db:seed
 ## Use
 These methods are provided:
 
-### Collections Methods
+### Collection Methods
 When using Laravel you can work with the [Collection Available Methods](https://laravel.com/docs/master/collections).
 
 ### From JSON file (Optional)

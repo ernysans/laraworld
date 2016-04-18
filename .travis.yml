@@ -3,7 +3,6 @@ language: php
 
 # Versions of PHP you want your project run with.
 php:
-  - '5.5'
   - '5.6'
   - '7.0'
   - hhvm
@@ -11,7 +10,7 @@ php:
 
 # Commands to be run before your environment runs.
 before_script:
-  - composer install --dev --prefer-source --no-interaction
+  - composer install --prefer-source --no-interaction
 
 # Commands you want to run that will verify your build.
 script: phpunit
