@@ -18,4 +18,4 @@ script: phpunit --configuration phpunit.xml
 # Customize when the notification emails are sent.
 notifications:
     on_success: never
-    on_failure: always
+    on_failure: never

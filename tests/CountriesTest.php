@@ -1,6 +1,6 @@
 <?php
 
-use \ErnySans\Laraworld\Models\Countries;
+use ErnySans\Laraworld\Models\Countries;
 
 class CountriesTest extends PHPUnit_Framework_TestCase
 {
