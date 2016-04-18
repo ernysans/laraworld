@@ -30,8 +30,10 @@
         }
     },
     "autoload-dev": {
+      "psr-4": {
+        "ErnySans\\Laraworld\\Models\\": "src/Models/"
+      },
       "classmap": [
-        "src/Models/",
         "tests/"
       ]
     }
