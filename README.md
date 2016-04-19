@@ -25,7 +25,7 @@ When using Laravel there is a service provider that you can make use of.
 ];
 ```
 
-Publish Migrations and Seeds
+Publish Migrations and Seeds.
 
 ```bash
 $ php artisan vendor:publish --provider="ErnySans\Laraworld\LaraworldServiceProvider"
@@ -52,7 +52,9 @@ class DatabaseSeeder extends Seeder
     }
 }
 ```
-## Run Migrations and Seed the tables
+
+Run Migrations and Seed the tables
+
 ```bash
 $ php artisan migrate
 $ php artisan db:seed
@@ -66,13 +68,12 @@ When using Laravel you can work with the [Collection Available Methods](https://
 ### JSON file (Optional)
 Use this methods If you want to get all the data from the JSON file:
 
-* `Countries::getCountries()`: Get all the countries from the JSON file.
-* `Languages::getCountries()`: Get all the languages from the JSON file.
-* `TimeZones::getCountries()`: Get all the time zones from the JSON file.
+* `Countries::allJSON()`: Get all the countries from the JSON file.
+* `Languages::allJSON()`: Get all the languages from the JSON file.
+* `TimeZones::allJSON()`: Get all the time zones from the JSON file.
 
-## Credits
-
-- [Erny Sans](http://erny.co)
+## Contributing
+Thank you for considering contributing to the Laraworld package!. Remember to run PHPUnit tests before sending a new pull request.
 
 ## License
 This package is open-sourced licensed under the [MIT license](http://opensource.org/licenses/MIT).
