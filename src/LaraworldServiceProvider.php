@@ -25,7 +25,6 @@ class LaraworldServiceProvider extends ServiceProvider
     {
         // Countries Migration =========================
         $countries_migration = $this->getTimePath('create_countries_table', 'migrations');
-        $this->deleteCountriesMigrations();
 
         $this->publishes([
             __DIR__.'/Database/migrations/0000_00_00_000000_create_countries_table.php' => database_path($countries_migration)
@@ -39,7 +38,6 @@ class LaraworldServiceProvider extends ServiceProvider
 
         // Languages Migration =========================
         $languages_migration = $this->getTimePath('create_languages_table', 'migrations');
-        $this->deleteLanguagesMigrations();
 
         $this->publishes([
             __DIR__.'/Database/migrations/0000_00_00_000000_create_languages_table.php' => database_path($languages_migration)
@@ -53,7 +51,6 @@ class LaraworldServiceProvider extends ServiceProvider
 
         // Time Zones Migration ========================
         $time_zones_migration = $this->getTimePath('create_time_zones_table', 'migrations');
-        $this->deleteTimeZonesMigrations();
 
         $this->publishes([
             __DIR__.'/Database/migrations/0000_00_00_000000_create_time_zones_table.php' => database_path($time_zones_migration)
@@ -73,7 +70,24 @@ class LaraworldServiceProvider extends ServiceProvider
      */
     protected function getDatePrefix()
     {
+
         return date('Y_m_d_His');
+    }
+
+	/**
+     * If the file exist retrieve the same name
+     *
+     * @param $name
+     * @return null
+     */
+    private function getMigrationCurrentName($name) {
+        $base = database_path('migrations/****_**_**_******_'.$name.'.php');
+        $source = File::glob($base);
+        if ($source) {
+            return basename($source[0], ".php");
+        }
+
+        return null;
     }
 
     /**
@@ -85,47 +99,14 @@ class LaraworldServiceProvider extends ServiceProvider
      */
     protected function getTimePath($name, $path)
     {
-        return $path.'/'.$this->getDatePrefix().'_'.$name.'.php';
-    }
+        if ($this->getMigrationCurrentName($name)) {
+            $txt = $this->getMigrationCurrentName($name);
+        }
+        else {
+            $txt = $this->getDatePrefix().'_'.$name;
+        }
 
-    /**
-     * Publish migrations for testing
-     */
-    private function deleteTimeZonesMigrations()
-    {
-        $base = database_path('migrations/****_**_**_******_create_time_zones_table.php');
-        $this->deleteMigration($base);
-    }
-
-    /**
-     * Publish migrations for testing
-     */
-    private function deleteCountriesMigrations()
-    {
-        $base = database_path('migrations/****_**_**_******_create_countries_table.php');
-        $this->deleteMigration($base);
-    }
-
-    /**
-     * Publish migrations for testing
-     */
-    private function deleteLanguagesMigrations()
-    {
-        $base = database_path('migrations/****_**_**_******_create_languages_table.php');
-        $this->deleteMigration($base);
-    }
-
-    /**
-     * Delete migration match
-     * @param $base
-     */
-    private function deleteMigration($base)
-    {
-        $source = File::glob($base);
-        $route = $source[0];
-        File::delete($route);
-        $success = File::exists($route);
-        $this->assertFalse($success);
+        return  $path.'/'.$txt.'.php';
     }
     
 }
