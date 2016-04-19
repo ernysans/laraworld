@@ -1,5 +1,6 @@
 <?php
 
+
 use Illuminate\Database\Seeder;
 use ErnySans\Laraworld\Models\TimeZones;
 

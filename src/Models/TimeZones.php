@@ -74,7 +74,7 @@ class TimeZones extends Model
 	 */
 	public static function allJSON()
 	{
-		$route = dirname(dirname(__FILE__)) . '/Database/data/timezones.json';
+		$route = dirname(dirname(__FILE__)) . '/Database/data/time_zones.json';
 
 		return json_decode(file_get_contents($route), true);
 	}
