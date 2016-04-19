@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/ernysans/laraworld.svg?branch=master)](https://travis-ci.org/ernysans/laraworld)
+[![Build Status](https://travis-ci.org/ernysans/laraworld.svg?branch=master)](https://travis-ci.org/ernysans/laraworld) [![Latest Stable Version](https://poser.pugx.org/ernysans/laraworld/v/stable?format=flat)](https://packagist.org/packages/ernysans/laraworld) [![Total Downloads](https://poser.pugx.org/ernysans/laraworld/downloads?format=flat)](https://packagist.org/packages/ernysans/laraworld) [![Latest Unstable Version](https://poser.pugx.org/ernysans/laraworld/v/unstable?format=flat)](https://packagist.org/packages/ernysans/laraworld) [![License](https://poser.pugx.org/ernysans/laraworld/license?format=flat)](https://packagist.org/packages/ernysans/laraworld)
 
 # Laraworld
 Countries, Languages and Time Zones Package for Laravel and Lumen 5.*
