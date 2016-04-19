@@ -3,6 +3,10 @@
 # Laraworld
 Countries, Languages and Time Zones Package for Laravel and Lumen 5.*
 
+Please check the [Known Issues](https://github.com/ernysans/laraworld/issues) section before reporting a new one.
+
+![ScreenShot](../master/src/img/screenshot.jpg?raw=true)
+
 ## Installation
 This package can be installed through Composer.
 
