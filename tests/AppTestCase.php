@@ -32,8 +32,6 @@ class AppTestCase extends Illuminate\Foundation\Testing\TestCase
 	public function setUp()
 	{
 		parent::setUp();
-		Artisan::call('migrate');
-		Artisan::call('db:seed');
 	}
 
 	/**
@@ -41,7 +39,7 @@ class AppTestCase extends Illuminate\Foundation\Testing\TestCase
 	 */
 	public function tearDown()
 	{
-		Artisan::call('migrate:reset');
+		//Artisan::call('migrate:reset');
 		parent::tearDown();
 	}
 
