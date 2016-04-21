@@ -21,7 +21,20 @@ When using Laravel there is a service provider that you can make use of.
 
 'providers' => [
     '...',
-    ErnySans\Laraworld\LaraworldServiceProvider::class
+    ErnySans\Laraworld\LaraworldServiceProvider::class,
+];
+```
+
+Configure the aliases to make use of the Facades.
+
+```php
+// app/config/app.php
+
+'aliases' => [
+    '...',
+    'Countries' => ErnySans\Laraworld\Facades\Countries::class,
+    'TimeZones' => ErnySans\Laraworld\Facades\TimeZones::class,
+    'Languages' => ErnySans\Laraworld\Facades\Languages::class,
 ];
 ```
 

@@ -2,11 +2,15 @@
 
 namespace ErnySans\Laraworld;
 
+use ErnySans\Laraworld\Models\Countries;
+use ErnySans\Laraworld\Models\Languages;
+use ErnySans\Laraworld\Models\TimeZones;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\File;
 
 class LaraworldServiceProvider extends ServiceProvider
 {
+
     /**
      * Register bindings in the container.
      *
@@ -14,6 +18,17 @@ class LaraworldServiceProvider extends ServiceProvider
      */
     public function register()
     {
+        $this->app->bind('Countries', function() {
+            return new Countries;
+        });
+
+        $this->app->bind('Languages', function() {
+            return new Languages;
+        });
+
+        $this->app->bind('TimeZones', function() {
+            return new TimeZones;
+        });
     }
 
     /**
