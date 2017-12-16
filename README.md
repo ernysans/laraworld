@@ -38,6 +38,8 @@ Configure the aliases to make use of the Facades.
 ];
 ```
 
+> If you are using Laravel 5.5 it's not required to manually add the service provider and aliases.
+
 Publish Migrations and Seeds.
 
 ```bash
