@@ -28,5 +28,17 @@
   },
   "autoload-dev": {
     "classmap": ["tests/AppTestCase.php"]
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "ErnySans\\Laraworld\\LaraworldServiceProvider"
+      ],
+      "aliases": {
+        "Countries": "ErnySans\\Laraworld\\Facades\\Countries",
+        "TimeZones": "ErnySans\\Laraworld\\Facades\\TimeZones",
+        "Languages": "ErnySans\\Laraworld\\Facades\\Languages"
+      }
+    }
   }
 }
